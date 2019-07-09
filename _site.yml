@@ -1,0 +1,8 @@
+name: "scienceverse"
+output_dir: "docs"
+exclude: ["*.xls", "*.csv","*.R"]
+output:
+  html_document:
+    toc: false
+    theme: flatly
+    highlight: tango
