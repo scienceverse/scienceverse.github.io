@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
 
@@ -243,6 +246,90 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -250,6 +337,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -289,41 +386,6 @@ $(document).ready(function () {
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#abstract">Abstract</a></li>
-<li><a href="#resources">Resources</a></li>
-<li><a href="#use-cases">Use Cases</a><ul>
-<li><a href="#contributors">Contributors</a></li>
-</ul></li>
-<li><a href="#needs">Needs</a><ul>
-<li><a href="#contributors-1">Contributors</a></li>
-</ul></li>
-<li><a href="#roadblocks">Roadblocks</a><ul>
-<li><a href="#contributors-2">Contributors</a></li>
-<li><a href="#motivations-to-usedevelop-scienceverse">Motivations to use/develop scienceverse</a></li>
-<li><a href="#currently-missing-essentials">Currently missing essentials</a></li>
-<li><a href="#is-it-complexsimple-enough-for-everyone">Is it complex/simple enough for everyone?</a></li>
-<li><a href="#standarisation-versus-flexibility">Standarisation versus flexibility</a></li>
-<li><a href="#optimism">Optimism?</a></li>
-</ul></li>
-<li><a href="#aligned-projects">Aligned Projects</a><ul>
-<li><a href="#contributors-3">Contributors</a></li>
-<li><a href="#ideas">Ideas</a></li>
-<li><a href="#evaluating-literature">Evaluating literature:</a></li>
-<li><a href="#accelerate-the-writing-of-papers">Accelerate the writing of papers</a></li>
-<li><a href="#research-synthesis-meta-analysis">Research synthesis &amp; meta analysis</a></li>
-<li><a href="#collaboration-planning">Collaboration / planning</a></li>
-<li><a href="#science-education-communication-community-stakeholders">Science education &amp; communication, community, stakeholders</a></li>
-<li><a href="#pre-registration">Pre-registration</a></li>
-<li><a href="#theoretical-development">Theoretical development</a></li>
-<li><a href="#analysis">Analysis</a></li>
-<li><a href="#experimental-design">Experimental design:</a></li>
-<li><a href="#reliability-robustness">Reliability / robustness:</a></li>
-<li><a href="#integrations">Integrations</a></li>
-</ul></li>
-</ul>
-</div>
 
 <div id="abstract" class="section level2">
 <h2>Abstract</h2>
@@ -603,6 +665,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 
