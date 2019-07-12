@@ -1,0 +1,238 @@
+---
+title: "SIPS 2019 Hackathon on Open research documentation"
+subtitle: "(or: Scienceverse: A Machine Readable Grammar of Science)"
+---
+
+## Abstract
+
+The goal of scienceverse is to generate and process machine-readable study descriptions to facilitate archiving studies, pre-registering studies, finding variables and measures used in other research, meta-analyses of studies, and finding and re-using datasets in other ways. Explicitly documenting hypotheses, materials, methods/procedure, data, and analysis code facilitates cumulative science. It is often difficult to exactly recover some of these aspects, and usually impossible to automate this process. We will present a preliminary version of a framework (with an associated R package and shiny app) for organising this information in a machine-readable way and automatically producing human-readable summaries. This framework can integrate with other projects to document study planning decisions (e.g., justifier), data (e.g., Psych-DS, codebook), and methods (e.g., experimentum, formR). 
+
+We have 4 main goals in this project, which we might examine collaboratively, or in small subgroups.
+
+1. Imagine a fully developed Grammar of Science exists. All aspects of a study you need are machine readable. What would you want to use it for? Which use-cases can we identify? 
+2. What do we need to get to this fully developed Grammar of Science? Which aspects of the research cycle and research output do we need to develop a Grammar for? For example, how can we develop a Grammar for paradigms used in psychology?
+3. What are the potential roadblocks to realizing a Grammar of Science that can be widely implemented? What is needed to resolve these roadblocks?
+4. How does Scienceverse integrate with other ongoing projects at SIPS? Is it possible for Scienceverse to facilitate these other projects? E.g., machine readable codebooks, better preregistration documents, Psych-DS, etc. Throughout SIPS, tag any projects you run into that Scienceverse should interact with! 
+
+
+## Resources
+
+* [Main Google Doc](https://docs.google.com/document/d/1DKhnypsG__XG9k_16smU3IJDYGgnxFP5LHw4P6Qh50g/edit)
+* [Projects group Google Doc](https://docs.google.com/document/d/1eI9rY20f0exxeegZZlnX-D0cNGoZcl36rKYFMtnRqbU/)
+* [Needs Google Doc](https://docs.google.com/document/d/1Qoi0YxlGFWqsxSsRtTFZxOPd3LTCn5qyQShvI_NvpAI/)
+* [OSF](https://osf.io/c52yh/)
+* [Slack channel](https://sips-2019.slack.com/messages/h_open_documentation)
+
+The links above provide the raw materials created during the hackathon. Below, we summarise the discussion.
+
+## Use Cases
+
+Imagine a fully developed Grammar of Science exists. All aspects of a study you need are machine readable. What would you want to use it for? Which use-cases can we identify?
+
+### Contributors
+
+* Anna Szabelska (aszabelska01@qub.ac.uk) 
+* Aleksandra Tolopilo (atolopilo@swps.edu.pl) 
+* Bjørn Sætrevik (bjorn.satrevik@uib.no)
+* Ekaterina (Katia) Damer ek.damer@gmail.com
+* Michal Olszanowski (molszanowski@swps.edu.pl)
+* Martin Müller (martin.mueller82@univie.ac.at)
+* Kohinoor Monish Darda (k.darda@bangor.ac.uk)
+* Constantin Yves Plessen(yves.plessen@me.com) 
+* Sau-Chin Chen; pmsp96@gmail.com 
+* Ilse Pit; ilsepit@gmail.com; @ilsepit
+* Pierpaolo Primoceri pierpaolo.primoceri@uzh.ch
+* Ruud Hortensius ruud.hortensius@glasgow.ac.uk 
+* Zoltan Kekecs (kekecs.zoltan@gmail.com)
+* David Moreau d.moreau@auckland.ac.nz
+* Kristina Wiebels kwie508@aucklanduni.ac.nz
+
+## Needs
+
+What do we need to get to this fully developed Grammar of Science? Which aspects of the research cycle and research output do we need to develop a Grammar for? For example, how can we develop a Grammar for paradigms used in psychology?
+
+### Contributors
+
+* David Moreau, The University of Auckland, d.moreau@auckland.ac.nz
+* Kristina Wiebels, The University of Auckland, kwie508@aucklanduni.ac.nz
+* Ian Hussey, Ghent University, @ianhussey ian.hussey@ugent.be
+* Ginette Lafit, KU Leuven, ginette.lafit@kuleuven.be
+* Liam Satchell @lpsatchell University of Winchester, liam.satchell@winchester.ac.uk
+* Tanja Burgard, ZPID, tb@leibniz-psychology.org
+* Elena SIxtus, Uni Potsdam, esixtus@uni-potsdam.de
+* Daniel Toribio-Florez, toribio-florez@coll.mpg.de 
+* Shannon McNee, University of Glasgow, shannon.mcnee18@gmail.com 
+* Anna Lohmann, anna@lohmann-web.net 
+* Ellie Hassan, University of Exeter, eh616@exeter.ac.uk
+* Gabriela Hofer, University of Graz, gabriela.hofer@uni-graz.at
+* Franziska Stanke, University of Münster, fstanke@wwu.de
+* Divya Seernani, divya.seernani@gmail.com
+* Elise Gould, elise.gould@unimelb.edu.au
+
+
+## Roadblocks
+
+What are the potential roadblocks to realizing a Grammar of Science that can be widely implemented? What is needed to resolve these roadblocks?
+
+### Contributors
+
+### Motivations to use/develop scienceverse
+
+* There needs to be a reason for researchers (not just meta-scientists) to use the scienceverse. This could be if the scienceverse becomes a useful database of results; one that researchers would search before conducting their studies (in addition to, or as part of, Google Scholar and other academic search engines).
+
+### Currently missing essentials
+
+* Registration documents must clearly specify the primary and secondary hypotheses.
+* The package needs to incorporate the ability to separate and specify changes to preregistered analysis protocols.
+* Containerisation will be required to make the results from scienceverse hypotheses fully reproducible.
+
+### Is it complex/simple enough for everyone?
+
+* The scienceverse may not be for everyone at first. Does this limit its utility?
+* Researchers will find it difficult to specify their hypotheses in advance.
+* Including the results of more complex statistical analyses may be more difficult, but it is possible: the key parameters just need to be included in a list.
+* There is an extra step involved for those conducting their analyses outside of R. This could be another barrier to entry, but may be overcome by the use of easy-to-complete online apps.
+* To work, the specification must be very flexible. This will require a great deal of development.
+* People use things because of their cool tools! Their extra functionality. If the scienceverse is linked to other useful functionality then people will be more likely to use it.
+* Integration with other open source software would make the scienceverse easier to use (e.g., JASP, jamovi).
+
+### Standarisation versus flexibility
+
+* The centralisation of the project could make it difficult to implement and difficult to get researchers on board who do not use other open science websites and tools.
+* Naming analysis parameters in a standardised way will facilitate the use of the scienceverse, including for meta-analysis. But the scienceverse must work well with non-standardised output for it to be widely adopted and easy to use (currently possible but more difficult?). This link may be possible within json files.
+
+### Optimism?
+
+* Researchers may be motivated to use the scienceverse because it could help them to plan their analyses by helping them to simulate data based on their hypotheses and data structure.
+* This could help researchers to find and work with the particular measurement tools they are interested in using or analysing data from (can also include delivery variables, e.g. online vs. face-to-face, standard question order vs. a randomised order).
+* A book on experimental design using the scienceverse (and incorporation in teaching) may be required to get students and academic faculty to use it.
+
+
+## Aligned Projects
+
+How does Scienceverse integrate with other ongoing projects at SIPS? Is it possible for Scienceverse to facilitate these other projects? E.g., machine readable codebooks, better preregistration documents, Psych-DS, etc. Throughout SIPS, tag any projects you run into that Scienceverse should interact with! 
+
+### Contributors
+
+* robert.t.thibault@gmail.com  @rt_thibault
+* erikbpanderson@gmail.com @ebanders
+* Johannes Breuer, johannes.breuer@gesis.org, @MattEagle09 
+* mayer@psychologie.uzh.ch
+* Stephan Heunis
+* Thomas Richardson
+* Elise Gould
+* Zita Mayer
+
+The list of [Meta-data Projects and Tools](metadatlist.html) is derived from the list generated by this group.
+
+### Ideas
+
+* Essential versus encouraged documentation
+* Are the researchers responsible for inputting all the information? Or, should we involve librarians or others to fill in the grammar field?
+* What if we still have meta-analyses where those interested in a specific questions fill in all the grammar? This takes the extra workload off the original researchers (find the right balance)
+* Can we make a common format platform for meta-analysts and systematic reviewers to upload their findings too, so that the reviews can be continued into the future?
+* This could incentivize the release of old data
+* Cunningham’s law: the quickest way to find the right answer (online) is to post the wrong answer.
+* Could journals (esp. community journals)  implement checklists to help achieve a grammar of science (eg. OHBM--organization for human brain mapping, is using the COBIDAS checklist)
+* What about journals like Psychological Science, or APA journals…
+* Possibility to generate some visual output/summary of the study/project structure/design (that could be included in presentations or publications)?
+* The specification of all study parts (esp. In the analysis) for complex designs might be challenging (for example, longitudinal studies, complex sampling strategies, multilevel models, etc.)
+* Documentation ideally for whole research lifecycle (for a nice visualization of the research lifecycle see https://how-to-open.science/) 
+* It should “threaten” to constrain exploratory research
+
+
+
+### Evaluating literature:
+
+* Simplifying and accelerating review processes
+* Give machine recommendations for reviewers - e.g.: check this section, because it looks different from the others, or that it looks fine.
+* Integrating of behavioural/neuroimaging/etc. data, methods, databases etc with published ‘article’
+* Ease the evaluation of manuscripts, which accelerates the review process
+* Links between behavioural, neuroimaging and other kinds of data and univariate and multivariate analyses
+* A standardized taxonomy for keywords, cover all psy research in non-overlapping categories
+* Who do I need to cite in my paper?
+* Who should I recommend as a reviewer for my manuscript?
+
+### Accelerate the writing of papers
+
+* Automatic answers to questions you have, e.g. what is the effect of x on y? And get an answer based on the database, including reliability score
+* Automated manuscript write-up based on the pre-registered hypotheses and analysis plan (machine-recommended language for the results section of the manuscript)
+* Similar to "fMRI prep"
+
+### Research synthesis & meta analysis
+
+* Make data (sets) accessible and searchable as a whole by topics/variables
+* Automated meta-analyses / continuously updating meta-analyses
+* We can have automated meta-meta-analyses on more meta-subjects
+* Future proofing meta-analyses / meta-meta analyses
+* All transformations / formulas need to be attached as meta-data
+* Decisions rules in case of deviations from the analysis plan need to be specified (i.e. categorical moderator is changed from 4 to 3 categories because not enough observations were obtained in one category)
+
+### Collaboration / planning    
+
+* Be able to Google data sets
+* Who have looked at the relationship between these variables before?
+  * When considering new projects:
+  * When evaluating grant proposals for novelty
+* Create study blobs - linking up unrelated studies which use the same variables
+* Including future research ideas/hypotheses that are also accessible / recommended future research questions
+* Suggesting the design based on the claimed hypotheses
+* Good for big collaborations
+* Time stamped workflow (e.g., integrated with workflowr)
+* Compare semantic information: instructions etc
+
+### Science education & communication, community, stakeholders
+
+* Better science education, e.g. this could broaden students’ scope / perspective on what data already exists and what hypotheses one might test
+* Better science communication and dissemination in applied settings, e.g. scienceverse could make it easier for journalists or politicians to interpret evidence and its robustness
+* One format to teach students
+* Search enginge where people from the public can enter research questions, and a bot will convert the question to research hypothesis and will search the database for compatible stuides, do a quick meta-analyis and answer the question
+
+### Pre-registration
+
+* A shiny-app for (quick/simple?) pre-registrations in machine readable form. 
+    * Start with simple but formalized predictions. 
+    * Suggest as one of the OSF pre-reg options? 
+    * Does not need to wait for "the perfect future"
+* Better comparison between different pre-registrations/hypotheses of similar studies/investigations
+* Integrate the preregistration templates  
+* Include power analyses (if not already possible)
+
+### Theoretical development
+
+* Work towards "a grand unified theory" understanding of psychology
+* Machine readable findings would allow us to compile all findings on a given subject, compare contributions
+* Iterate faster between developing theory and testing hypotheses
+
+### Analysis
+
+* Pre-processing: 
+    * cleaning data
+    * exactly when items and variables removed
+    * outliers
+    * wrong values
+    * Crohnbach's alpha is wrong
+* Containers: standardized ways of analysing (also preprocessing) data
+* Running other's hypotheses on your data automatically
+
+### Experimental design:
+
+* Standardize experimental manipulation methods
+* Reuse experiments; psychopy (scripts) info etc
+* Recycle stimuli presentation script
+* Recycle questionnaires/experiment info
+* Increases reproducibility
+
+### Reliability / robustness:
+
+* Evaluate how robust were the analyses? 
+* Adding meta-data for multiverse and/or specification curve analysis?
+* What other decisions/analyses could have been done?
+* Automated robustness check based on the literature
+* Limit researcher degrees of freedom and avoid p-hacking
+
+### Integrations
+
+* R Markdown
+*[Prolific](www.prolific.ac)
+    reduce research redundancy (so researchers don’t have to collect the same data over and over again, but can see where there are gaps in the data)
