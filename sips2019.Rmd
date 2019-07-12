@@ -47,6 +47,102 @@ Imagine a fully developed Grammar of Science exists. All aspects of a study you 
 * David Moreau d.moreau@auckland.ac.nz
 * Kristina Wiebels kwie508@aucklanduni.ac.nz
 
+### Evaluating literature:
+
+* Simplifying and accelerating review processes
+* Give machine recommendations for reviewers - e.g.: check this section, because it looks different from the others, or that it looks fine.
+* Integrating of behavioural/neuroimaging/etc. data, methods, databases etc with published ‘article’
+* Ease the evaluation of manuscripts, which accelerates the review process
+* Links between behavioural, neuroimaging and other kinds of data and univariate and multivariate analyses
+* A standardized taxonomy for keywords, cover all psy research in non-overlapping categories
+* Who do I need to cite in my paper?
+* Who should I recommend as a reviewer for my manuscript?
+
+### Accelerate the writing of papers
+
+* Automatic answers to questions you have, e.g. what is the effect of x on y? And get an answer based on the database, including reliability score
+* Automated manuscript write-up based on the pre-registered hypotheses and analysis plan (machine-recommended language for the results section of the manuscript)
+* Similar to "fMRI prep"
+
+### Research synthesis & meta analysis
+
+* Make data (sets) accessible and searchable as a whole by topics/variables
+* Automated meta-analyses / continuously updating meta-analyses
+* We can have automated meta-meta-analyses on more meta-subjects
+* Future proofing meta-analyses / meta-meta analyses
+* All transformations / formulas need to be attached as meta-data
+* Decisions rules in case of deviations from the analysis plan need to be specified (i.e. categorical moderator is changed from 4 to 3 categories because not enough observations were obtained in one category)
+
+### Collaboration / planning    
+
+* Be able to Google data sets
+* Who have looked at the relationship between these variables before?
+  * When considering new projects:
+  * When evaluating grant proposals for novelty
+* Create study blobs - linking up unrelated studies which use the same variables
+* Including future research ideas/hypotheses that are also accessible / recommended future research questions
+* Suggesting the design based on the claimed hypotheses
+* Good for big collaborations
+* Time stamped workflow (e.g., integrated with workflowr)
+* Compare semantic information: instructions etc
+
+### Science education & communication, community, stakeholders
+
+* Better science education, e.g. this could broaden students’ scope / perspective on what data already exists and what hypotheses one might test
+* Better science communication and dissemination in applied settings, e.g. scienceverse could make it easier for journalists or politicians to interpret evidence and its robustness
+* One format to teach students
+* Search enginge where people from the public can enter research questions, and a bot will convert the question to research hypothesis and will search the database for compatible stuides, do a quick meta-analyis and answer the question
+
+### Pre-registration
+
+* A shiny-app for (quick/simple?) pre-registrations in machine readable form. 
+    * Start with simple but formalized predictions. 
+    * Suggest as one of the OSF pre-reg options? 
+    * Does not need to wait for "the perfect future"
+* Better comparison between different pre-registrations/hypotheses of similar studies/investigations
+* Integrate the preregistration templates  
+* Include power analyses (if not already possible)
+
+### Theoretical development
+
+* Work towards "a grand unified theory" understanding of psychology
+* Machine readable findings would allow us to compile all findings on a given subject, compare contributions
+* Iterate faster between developing theory and testing hypotheses
+
+### Analysis
+
+* Pre-processing: 
+    * cleaning data
+    * exactly when items and variables removed
+    * outliers
+    * wrong values
+    * Crohnbach's alpha is wrong
+* Containers: standardized ways of analysing (also preprocessing) data
+* Running other's hypotheses on your data automatically
+
+### Experimental design:
+
+* Standardize experimental manipulation methods
+* Reuse experiments; psychopy (scripts) info etc
+* Recycle stimuli presentation script
+* Recycle questionnaires/experiment info
+* Increases reproducibility
+
+### Reliability / robustness:
+
+* Evaluate how robust were the analyses? 
+* Adding meta-data for multiverse and/or specification curve analysis?
+* What other decisions/analyses could have been done?
+* Automated robustness check based on the literature
+* Limit researcher degrees of freedom and avoid p-hacking
+
+### Integrations
+
+* R Markdown
+*[Prolific](www.prolific.ac)
+    reduce research redundancy (so researchers don’t have to collect the same data over and over again, but can see where there are gaps in the data)
+
+
 ## Needs
 
 What do we need to get to this fully developed Grammar of Science? Which aspects of the research cycle and research output do we need to develop a Grammar for? For example, how can we develop a Grammar for paradigms used in psychology?
@@ -142,97 +238,3 @@ The list of [Meta-data Projects and Tools](metadatlist.html) is derived from the
 
 
 
-### Evaluating literature:
-
-* Simplifying and accelerating review processes
-* Give machine recommendations for reviewers - e.g.: check this section, because it looks different from the others, or that it looks fine.
-* Integrating of behavioural/neuroimaging/etc. data, methods, databases etc with published ‘article’
-* Ease the evaluation of manuscripts, which accelerates the review process
-* Links between behavioural, neuroimaging and other kinds of data and univariate and multivariate analyses
-* A standardized taxonomy for keywords, cover all psy research in non-overlapping categories
-* Who do I need to cite in my paper?
-* Who should I recommend as a reviewer for my manuscript?
-
-### Accelerate the writing of papers
-
-* Automatic answers to questions you have, e.g. what is the effect of x on y? And get an answer based on the database, including reliability score
-* Automated manuscript write-up based on the pre-registered hypotheses and analysis plan (machine-recommended language for the results section of the manuscript)
-* Similar to "fMRI prep"
-
-### Research synthesis & meta analysis
-
-* Make data (sets) accessible and searchable as a whole by topics/variables
-* Automated meta-analyses / continuously updating meta-analyses
-* We can have automated meta-meta-analyses on more meta-subjects
-* Future proofing meta-analyses / meta-meta analyses
-* All transformations / formulas need to be attached as meta-data
-* Decisions rules in case of deviations from the analysis plan need to be specified (i.e. categorical moderator is changed from 4 to 3 categories because not enough observations were obtained in one category)
-
-### Collaboration / planning    
-
-* Be able to Google data sets
-* Who have looked at the relationship between these variables before?
-  * When considering new projects:
-  * When evaluating grant proposals for novelty
-* Create study blobs - linking up unrelated studies which use the same variables
-* Including future research ideas/hypotheses that are also accessible / recommended future research questions
-* Suggesting the design based on the claimed hypotheses
-* Good for big collaborations
-* Time stamped workflow (e.g., integrated with workflowr)
-* Compare semantic information: instructions etc
-
-### Science education & communication, community, stakeholders
-
-* Better science education, e.g. this could broaden students’ scope / perspective on what data already exists and what hypotheses one might test
-* Better science communication and dissemination in applied settings, e.g. scienceverse could make it easier for journalists or politicians to interpret evidence and its robustness
-* One format to teach students
-* Search enginge where people from the public can enter research questions, and a bot will convert the question to research hypothesis and will search the database for compatible stuides, do a quick meta-analyis and answer the question
-
-### Pre-registration
-
-* A shiny-app for (quick/simple?) pre-registrations in machine readable form. 
-    * Start with simple but formalized predictions. 
-    * Suggest as one of the OSF pre-reg options? 
-    * Does not need to wait for "the perfect future"
-* Better comparison between different pre-registrations/hypotheses of similar studies/investigations
-* Integrate the preregistration templates  
-* Include power analyses (if not already possible)
-
-### Theoretical development
-
-* Work towards "a grand unified theory" understanding of psychology
-* Machine readable findings would allow us to compile all findings on a given subject, compare contributions
-* Iterate faster between developing theory and testing hypotheses
-
-### Analysis
-
-* Pre-processing: 
-    * cleaning data
-    * exactly when items and variables removed
-    * outliers
-    * wrong values
-    * Crohnbach's alpha is wrong
-* Containers: standardized ways of analysing (also preprocessing) data
-* Running other's hypotheses on your data automatically
-
-### Experimental design:
-
-* Standardize experimental manipulation methods
-* Reuse experiments; psychopy (scripts) info etc
-* Recycle stimuli presentation script
-* Recycle questionnaires/experiment info
-* Increases reproducibility
-
-### Reliability / robustness:
-
-* Evaluate how robust were the analyses? 
-* Adding meta-data for multiverse and/or specification curve analysis?
-* What other decisions/analyses could have been done?
-* Automated robustness check based on the literature
-* Limit researcher degrees of freedom and avoid p-hacking
-
-### Integrations
-
-* R Markdown
-*[Prolific](www.prolific.ac)
-    reduce research redundancy (so researchers don’t have to collect the same data over and over again, but can see where there are gaps in the data)
