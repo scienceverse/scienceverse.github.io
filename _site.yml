@@ -8,12 +8,8 @@ output:
     highlight: tango
 navbar:
   title: "scienceverse"
-  left:
-  - text: "scienceverse"
-    icon: fa-home
-    href: /
   right:
     - text: "SIPS 2019 Hackathon"
       href: sips2019.html
     - text: "Other Meta-Data Projects"
-      href: metadatlist.html
+      href: metadatalist.html
