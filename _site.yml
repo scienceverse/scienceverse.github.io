@@ -10,7 +10,11 @@ output:
 navbar:
   title: "scienceverse"
   right:
-    - text: "SIPS 2019 Hackathon"
-      href: sips2019.html
-    - text: "Other Meta-Data Projects"
-      href: metadatalist.html
+    - text: "Menu"  
+      menu: 
+      - text: "scienceverse R package"
+        href: scienceverse/index.html
+      - text: "SIPS 2019 Hackathon"
+        href: sips2019.html
+      - text: "Other Meta-Data Projects"
+        href: metadatalist.html
