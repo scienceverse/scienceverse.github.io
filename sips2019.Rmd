@@ -86,7 +86,9 @@ Imagine a fully developed Grammar of Science exists. All aspects of a study you 
 * Time stamped workflow (e.g., integrated with workflowr)
 * Compare semantic information: instructions etc
 
-### Science education & communication, community, stakeholders
+### Scicom
+
+Science education & communication, community, stakeholders
 
 * Better science education, e.g. this could broaden students’ scope / perspective on what data already exists and what hypotheses one might test
 * Better science communication and dissemination in applied settings, e.g. scienceverse could make it easier for journalists or politicians to interpret evidence and its robustness
@@ -147,6 +149,10 @@ Imagine a fully developed Grammar of Science exists. All aspects of a study you 
 
 What do we need to get to this fully developed Grammar of Science? Which aspects of the research cycle and research output do we need to develop a Grammar for? For example, how can we develop a Grammar for paradigms used in psychology?
 
+This groups' thoughts are pretty complex and can best be viewed at the [Google Doc](https://docs.google.com/document/d/1Qoi0YxlGFWqsxSsRtTFZxOPd3LTCn5qyQShvI_NvpAI/edit) until we have a chance to synthesise things.
+
+
+
 ### Contributors
 
 * David Moreau, The University of Auckland, d.moreau@auckland.ac.nz
@@ -172,17 +178,17 @@ What are the potential roadblocks to realizing a Grammar of Science that can be 
 
 ### Contributors
 
-### Motivations to use/develop scienceverse
+### Motivations
 
 * There needs to be a reason for researchers (not just meta-scientists) to use the scienceverse. This could be if the scienceverse becomes a useful database of results; one that researchers would search before conducting their studies (in addition to, or as part of, Google Scholar and other academic search engines).
 
-### Currently missing essentials
+### Missing essentials
 
 * Registration documents must clearly specify the primary and secondary hypotheses.
 * The package needs to incorporate the ability to separate and specify changes to preregistered analysis protocols.
 * Containerisation will be required to make the results from scienceverse hypotheses fully reproducible.
 
-### Is it complex/simple enough for everyone?
+### Complexity/simplicity
 
 * The scienceverse may not be for everyone at first. Does this limit its utility?
 * Researchers will find it difficult to specify their hypotheses in advance.
@@ -192,12 +198,12 @@ What are the potential roadblocks to realizing a Grammar of Science that can be 
 * People use things because of their cool tools! Their extra functionality. If the scienceverse is linked to other useful functionality then people will be more likely to use it.
 * Integration with other open source software would make the scienceverse easier to use (e.g., JASP, jamovi).
 
-### Standarisation versus flexibility
+### Standarisation vs. flexibility
 
 * The centralisation of the project could make it difficult to implement and difficult to get researchers on board who do not use other open science websites and tools.
 * Naming analysis parameters in a standardised way will facilitate the use of the scienceverse, including for meta-analysis. But the scienceverse must work well with non-standardised output for it to be widely adopted and easy to use (currently possible but more difficult?). This link may be possible within json files.
 
-### Optimism?
+### Optimism
 
 * Researchers may be motivated to use the scienceverse because it could help them to plan their analyses by helping them to simulate data based on their hypotheses and data structure.
 * This could help researchers to find and work with the particular measurement tools they are interested in using or analysing data from (can also include delivery variables, e.g. online vs. face-to-face, standard question order vs. a randomised order).
