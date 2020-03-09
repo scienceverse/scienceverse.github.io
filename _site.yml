@@ -5,13 +5,15 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: flatly
+    theme: spacelab
     highlight: tango
 navbar:
   title: "scienceverse"
   right:
     - text: "Menu"  
       menu: 
+      - text: "Preprint"
+        href: https://doi.org/10.31234/osf.io/5xcda
       - text: "scienceverse R package"
         href: scienceverse/index.html
       - text: "SIPS 2019 Hackathon"
