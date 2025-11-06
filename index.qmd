@@ -1,0 +1,21 @@
+The increasingly digital workflow in science has made it possible to share almost all aspects of the research cycle, from pre-registered analysis plans and study materials to the data and analysis code that produce the reported results. Although the growing availability of research output is a positive development, most of this digital information is in a format that makes it difficult to [find, access, and reuse](https://www.go-fair.org/fair-principles/). A major barrier is the lack of a framework to concisely describe every component of research in a machine-readable format: *A grammar of science*. 
+
+## Software
+
+We are developing software to achieve our goals of generating and processing machine-readable descriptions to facilitate archiving studies, pre-registration, finding variables and measures used in other research, meta-analyses of studies, finding and re-using datasets in other ways, and assessing research outputs for best practices.
+
+::: {layout-ncol=3}
+
+[![scienceverse generates machine-readable descriptions of research objects](images/scienceverse.png)](https://scienceverse.github.io/scienceverse/)
+
+[![metacheck provides extendable tools for checking research outputs for best practices](images/metacheck.png)](https://scienceverse.github.io/metacheck/)
+
+[![faux simulates data from descriptive statistics](images/faux.png)](https://scienceverse.github.io/faux/)
+
+:::
+
+
+## Publications
+
+Lakens, D., & DeBruine, L. M. (2020). Improving Transparency, Falsifiability, and Rigour by Making Hypothesis Tests Machine Readable. _Advances in Methods and Practices in Psychological Science_. 2021;4(2). [doi:10.1177/2515245920970949](https://doi.org/10.1177/2515245920970949) (more accessible [preprint version](https://doi.org/10.31234/osf.io/5xcda))
+

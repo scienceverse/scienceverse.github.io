@@ -1,0 +1,168 @@
+---
+title: "Meta-data Projects and Tools"
+---
+
+This page lists projects and tools with the aligned goals of producing and organising machine-readable meta-data. Many of these were identified by participants in the at the [SIPS 2019 Open Documentation Hackathon](sips2019) ([Projects group Google Doc](https://docs.google.com/document/d/1eI9rY20f0exxeegZZlnX-D0cNGoZcl36rKYFMtnRqbU/)).
+
+
+## Tools
+
+### [Codebook](https://rubenarslan.github.io/codebook/)
+
+Easily automate the following tasks to describe data frames: - summarise the distributions, and labelled missings of variables graphically and using descriptive statistics - for surveys, compute and summarise reliabilities (internal consistencies, retest, multilevel) for psychological scales, - combine this information with metadata (such as item labels and labelled values) that is derived from R attributes.
+
+### [formr survey framework](https://formr.org/)
+
+Chain simple forms / surveys into longer runs using the power of R to generate pretty feedback and complex designs 
+
+### [experimentum](https://github.com/debruine/experimentum)
+
+Web-based platform for psychology studies and their management.
+
+### [justifier](ftp://cran.r-project.org/pub/R/web/packages/justifier/vignettes/general-introduction-to-justifier.html)
+
+The justifier package offers a flexible compromise that enables thorough documentation that is both human- and machine-readable. This allows learning from the decisions taken in one or multiple projects, and making clear where decisions were based on strong versus weak justifications. What exactly comprises a strong or weak justification is of course greatly dependent on domain and context, and justifier provides for this. Justification frameworks for two specific cases have been provided in the vignettes ‘justifier in behavior change intervention development’ and ‘justifier in study design’.
+
+
+### [Prolific](https://www.prolific.ac/)
+
+Enabling fast, reliable and large-scale data collection by connecting researchers with participants around the world.
+
+
+### [Metafor](http://www.metafor-project.org/)
+
+The metafor package is a free and open-source add-on for conducting meta-analyses with the statistical software environment R. The package consists of a collection of functions that allow the user to calculate various effect size or outcome measures, fit fixed-, random-, and mixed-effects models to such data, carry out moderator and meta-regression analyses, and create various types of meta-analytical plots. 
+
+
+
+
+## Archives/Databases
+
+### [PsyArXiv](https://psyarxiv.com/)
+
+A free preprint service for the psychological sciences.
+
+### [Re3Data](https://www.re3data.org/)
+
+re3data.org is a global registry of research data repositories that covers research data repositories from different academic disciplines. It presents repositories for the permanent storage and access of data sets to researchers, funding bodies, publishers and scholarly institutions. re3data.org promotes a culture of sharing, increased access and better visibility of research data.
+
+### [Cochrane library](https://www.cochranelibrary.com/)
+
+A collection of databases that contain different types of high-quality, independent evidence to inform healthcare decision-making.
+
+### [Clinicaltrials.gov](https://clinicaltrials.gov/)
+
+ClinicalTrials.gov is a database of privately and publicly funded clinical studies conducted around the world.
+
+### [GESIS Data Search](https://datasearch.gesis.org/)
+
+Search for social and economic research data across a diverse portfolio of data repositories and metadata services.
+
+### [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+
+Dataset Search enables users to find datasets stored across the Web through a simple keyword search. The tool surfaces information about datasets hosted in thousands of repositories across the Web, making these datasets universally accessible and useful.
+
+### [ZPID Test archive](https://www.testarchiv.eu/index.php?lang=EN)
+
+
+### [GESIS ZIS (Collection of Items and Scales for the Social Sciences](https://zis.gesis.org/en)  
+
+ZIS stands for the Collection of Items and Scales for the Social Sciences (German: ZIS - Zusammenstellung sozialwissenschaftlicher Items und Skalen). ZIS contains more than 250 instruments, e.g. items for measuring political attitudes or personality. Each instrument documentation includes the instrument itself and information about the instrument’s theoretical background, development, and quality criteria. The ZIS instruments are sorted by topics.
+
+## Curation
+
+### [Curate Science](https://curatescience.org/)
+
+A platform for researchers to label and link the transparency and replication of their research.
+
+### [hypothes.is](https://web.hypothes.is/)
+
+Use Hypothesis to hold discussions, read socially, organize your research, and take personal notes.
+
+### [Zenodo](https://zenodo.org/)
+
+Share research outputs, get a DOI, curate your own digital repository.
+
+## Standards/Specification
+
+### [DOI](https://www.doi.org/)
+
+The DOI system provides a technical and social infrastructure for the registration and use of persistent interoperable identifiers, called DOIs, for use on digital networks.
+
+### [ORCID](https://orcid.org/)
+
+ORCID is part of the wider digital infrastructure needed for researchers to share information on a global scale. We enable transparent and trustworthy connections between researchers, their contributions, and affiliations by providing an identifier for individuals to use with their name as they engage in research, scholarship, and innovation activities.
+
+### [Brain Imaging Data Structure (BIDS)](https://bids.neuroimaging.io/)
+
+Neuroimaging experiments result in complicated data that can be arranged in many different ways. So far there is no consensus how to organize and share data obtained in neuroimaging experiments. Even two researchers working in the same lab can opt to arrange their data in a different way. Lack of consensus (or a standard) leads to misunderstandings and time wasted on rearranging data or rewriting scripts expecting certain structure. Here we describe a simple and easy to adopt way of organizing neuroimaging and behavioral data.
+
+### [Neuroimaging data model (NIDM)](http://nidm.nidash.org/)
+
+The Neuroimaging Data Model (NIDM) is a collection of specification documents that define extensions the W3C PROV standard for the domain of human brain mapping. NIDM uses provenance information as means to link components from different stages of the scientific research process from dataset descriptors and computational workflow, to derived data and publication. 
+
+### [DDI](https://www.ddialliance.org/)
+
+The Data Documentation Initiative (DDI) is an international standard for describing the data produced by surveys and other observational methods in the social, behavioral, economic, and health sciences. DDI is a free standard that can document and manage different stages in the research data lifecycle, such as conceptualization, collection, processing, distribution, discovery, and archiving. 
+
+
+### [PSYCH-DS](https://psych-ds.github.io/)
+
+FAIR project organisation: Work with your data in formats that make your life easy and help you document and share with others. Human friendly, machine readable: Designed for individual scientists to generate machine-readable datasets and metadata. Community driven: Building consensus for how we structure/document our data so we can find and extend each others' work.
+
+### (CRED-nf checklist)[https://psyarxiv.com/nyx84/]
+
+This checklist is intended to encourage robust experimental design and clear reporting for clinical and cognitive-behavioural neurofeedback experiments.
+
+
+## Frameworks/Organisations
+
+### [OSF](https://osf.io/)
+
+Online framework for organising and sharing research components.
+
+### [Dublin Core Metadata Initiative (DCMI)](http://dublincore.org/)
+
+An organization supporting innovation in metadata design and best practices across the metadata ecology. DCMI's activities include:
+
+* work on architecture and modelling
+* discussions and collaborative work in DCMI Communities and DCMI Task Groups
+* global conferences, meetings and workshops
+* educational efforts to promote widespread acceptance of metadata standards and best practices.
+
+### [ZPID DataWiz](https://datawizkb.leibniz-psychology.org/)
+
+Automated Assistant for the Management of Psychological Research Data. DataWiz supports researchers in planning their data management before the project starts and in managing their research data during the project. It provides functions for data preparation, documentation and archiving, as well as a digital collaborative working environment for you and your team. In this way, project DataWiz pursues the following strategic goals:
+
+* reduce the time spent on research data management by researchers,
+* relieve the load on research data repositories by increasing quality of deposited data,
+* establish domain-adequate research data management and open science practices in psychology.
+
+### (workflowr)[https://jdblischak.github.io/workflowr/]
+
+The workflowr R package helps researchers organize their analyses in a way that promotes effective project management, reproducibility, collaboration, and sharing of results. Workflowr combines literate programming (knitr and rmarkdown) and version control (Git, via git2r) to generate a website containing time-stamped, versioned, and documented results.
+
+### [fmriprep](https://fmriprep.readthedocs.io/en/stable/)
+
+fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.
+
+### [metaBrainz & musicBrainz](https://metabrainz.org/) 
+
+The MetaBrainz Foundation is a non-profit that believes in free, open access to data. It has been set up to build community maintained databases and make them available in the public domain or under Creative Commons licenses. Our data is mostly gathered by volunteers and verified by peer review to ensure it is consistent and correct. All non-commercial use of this data is free, but commercial users are asked to support us in order to help fund the project. We encourage all data users to contribute to the data gathering process so that our data can be as comprehensive as possible.
+
+
+## Formats
+
+### [Schema.org](https://schema.org/)
+
+Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond. Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model.
+
+### [Portable Format for Analytics (PFA)](http://dmg.org/pfa/index.html)
+
+It provides a common interface to safely deploy analytic workflows across environments, from embedded systems to distributed data centers. PFA is an emerging standard for statistical models and data transformation engines. PFA combines the ease of portability across systems with algorithmic flexibility: models, pre-processing, and post-processing are all functions that can be arbitrarily composed, chained, or built into complex workflows. PFA may be as simple as a raw data transformation or as sophisticated as a suite of concurrent data mining models, all described as a JSON or YAML configuration file.
+
+## Other Resources
+
+### [A Practical Guide for Transparency in Psychological Science](https://www.collabra.org/articles/10.1525/collabra.158/)
+
+ Here we provide a practical guide to help researchers navigate the process of preparing and sharing the products of their research (e.g., choosing a repository, preparing their research products for sharing, structuring folders, etc.).
