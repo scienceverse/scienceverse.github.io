@@ -25,6 +25,6 @@ format:
     mainfont: "Open Sans"
     monofont: "Fira Code"
     css: include/styles.scss
-    fontsize: 1.3em
+    fontsize: 1.1em
 
 
