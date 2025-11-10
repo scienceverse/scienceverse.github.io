@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ScienceVerse</title>
+<title>Posts – ScienceVerse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -67,18 +69,75 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="include/styles.scss">
-<meta property="og:title" content="ScienceVerse">
-<meta property="og:description" content="">
+<meta property="og:title" content="Posts – ScienceVerse">
 <meta property="og:image" content="https://scienceverse.github.io/images/scienceverse.png">
 <meta property="og:site_name" content="ScienceVerse">
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -99,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Posts</span></a>
   </li>  
 </ul>
@@ -110,118 +169,179 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="YWk=">ai <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmxvZw==">blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWV0YWNoZWNr">metacheck <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGFuZWw=">panel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGFsaw==">talk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhbnNwYXJlbmN5JTIwY2hlY2s=">transparency check <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Posts</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
 
-<p>The increasingly digital workflow in science has made it possible to share almost all aspects of the research cycle, from pre-registered analysis plans and study materials to the data and analysis code that produce the reported results. Although the growing availability of research output is a positive development, most of this digital information is in a format that makes it difficult to <a href="https://www.go-fair.org/fair-principles/">find, access, and reuse</a>. A major barrier is the lack of a framework to concisely describe every component of research in a machine-readable format: <em>A grammar of science</em>.</p>
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<p>We are developing software to achieve our goals of generating and processing machine-readable descriptions to facilitate archiving studies, pre-registration, finding variables and measures used in other research, meta-analyses of studies, finding and re-using datasets in other ways, and assessing research outputs for best practices.</p>
-<p>Our current focus is on developing MetaCheck, which aims to screen scientific manuscripts to identify potential issues or areas for improvement and guide researchers in adopting best practices. It can also assist with processing large numbers of papers for metascientific enquiry.</p>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://scienceverse.github.io/scienceverse/"><img src="images/scienceverse.png" class="img-fluid figure-img"></a></p>
-<figcaption>scienceverse generates machine-readable descriptions of research objects</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://scienceverse.github.io/metacheck/"><img src="images/metacheck.png" class="img-fluid figure-img"></a></p>
-<figcaption>metacheck provides extendable tools for checking research outputs for best practices</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://scienceverse.github.io/faux/"><img src="images/faux.png" class="img-fluid figure-img"></a></p>
-<figcaption>faux simulates data from descriptive statistics</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="funding" class="level2">
-<h2 class="anchored" data-anchor-id="funding">Funding</h2>
-<p>This project is partially funded by the TDCC <a href="https://transparencycheck.github.io/">Research Transparency Check Project</a>, co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a Vici grant to Daniël Lakens.</p>
-</section>
-<section id="core-team" class="level2">
-<h2 class="anchored" data-anchor-id="core-team">Core Team</h2>
-<p>Scienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), Jakub Werner (RA, TUE), Lavinia (RA, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), and Max Littel (RA, VU).</p>
-<div class="quarto-layout-panel" data-layout-ncol="6">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/debruine.jpg" class="img-fluid figure-img"></p>
-<figcaption>Lisa DeBruine</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/lakens.jpg" class="img-fluid figure-img"></p>
-<figcaption>Daniël Lakens</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/mesquida.jpg" class="img-fluid figure-img"></p>
-<figcaption>Cristian Mesquida</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/werner.jpg" class="img-fluid figure-img"></p>
-<figcaption>Jakub Werner</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/bekkers.jpg" class="img-fluid figure-img"></p>
-<figcaption>René Bekkers</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 16.7%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/littel.jpg" class="img-fluid figure-img"></p>
-<figcaption>Max Littel</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<p>Lakens, D., &amp; DeBruine, L. M. (2020). Improving Transparency, Falsifiability, and Rigour by Making Hypothesis Tests Machine Readable. <em>Advances in Methods and Practices in Psychological Science</em>. 2021;4(2). <a href="https://doi.org/10.1177/2515245920970949">doi:10.1177/2515245920970949</a> (more accessible <a href="https://doi.org/10.31234/osf.io/5xcda">preprint version</a>)</p>
 
 
-</section>
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-</main> <!-- /main -->
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="cGFuZWwlMkNhaQ==" data-listing-date-sort="1761609600000" data-listing-file-modified-sort="1762790130362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Using AI Ethically in Research: Festival of Data Science and AI" data-listing-filename-sort="2025-10-27_ai-ethics.qmd">
+<td>
+<span class="listing-date">2025-10-28</span>
+</td>
+<td>
+<a href="./posts/2025-10-27_ai-ethics.html" class="title listing-title">Using AI Ethically in Research: Festival of Data Science and AI</a>
+</td>
+<td>
+<span class="listing-author">Lisa DeBruine</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="d29ya3Nob3AlMkNtZXRhY2hlY2s=" data-listing-date-sort="1761609600000" data-listing-file-modified-sort="1762790137955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36" data-listing-title-sort="Research Literature Demonstration: Festival of Data Science and AI" data-listing-filename-sort="2025-10-28_festival-of-ai.qmd">
+<td>
+<span class="listing-date">2025-10-28</span>
+</td>
+<td>
+<a href="./posts/2025-10-28_festival-of-ai.html" class="title listing-title">Research Literature Demonstration: Festival of Data Science and AI</a>
+</td>
+<td>
+<span class="listing-author">Lisa DeBruine</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="ZXZlbnQlMkN0cmFuc3BhcmVuY3klMjBjaGVjaw==" data-listing-date-sort="1759705200000" data-listing-file-modified-sort="1762790186296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130" data-listing-title-sort="Transparency Check Launch Event" data-listing-filename-sort="2025-10-06_launch.qmd">
+<td>
+<span class="listing-date">2025-10-06</span>
+</td>
+<td>
+<a href="./posts/2025-10-06_launch.html" class="title listing-title">Transparency Check Launch Event</a>
+</td>
+<td>
+<span class="listing-author">Rene Bekkers</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="YmxvZyUyQ21ldGFjaGVjaw==" data-listing-date-sort="1753570800000" data-listing-file-modified-sort="1762790095504" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123" data-listing-title-sort="Introductory Blog Posts" data-listing-filename-sort="2025-07-27_intro-blog.qmd">
+<td>
+<span class="listing-date">2025-07-27</span>
+</td>
+<td>
+<a href="./posts/2025-07-27_intro-blog.html" class="title listing-title">Introductory Blog Posts</a>
+</td>
+<td>
+<span class="listing-author">Daniël Lakens</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="dGFsayUyQ21ldGFjaGVjaw==" data-listing-date-sort="1753398000000" data-listing-file-modified-sort="1762790079517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="118" data-listing-title-sort="Glasgow Seminar on Papercheck" data-listing-filename-sort="2025-07-25_glasgow-seminar.qmd">
+<td>
+<span class="listing-date">2025-07-25</span>
+</td>
+<td>
+<a href="./posts/2025-07-25_glasgow-seminar.html" class="title listing-title">Glasgow Seminar on Papercheck</a>
+</td>
+<td>
+<span class="listing-author">Lisa DeBruine</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="d29ya3Nob3AlMkNtZXRhY2hlY2s=" data-listing-date-sort="1753225200000" data-listing-file-modified-sort="1762791474469" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44" data-listing-title-sort="Open Research Summer School" data-listing-filename-sort="2025-07-23_open-research-summer-school.qmd">
+<td>
+<span class="listing-date">2025-07-23</span>
+</td>
+<td>
+<a href="./posts/2025-07-23_open-research-summer-school.html" class="title listing-title">Open Research Summer School</a>
+</td>
+<td>
+<span class="listing-author">Cristian Mesquida</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="d29ya3Nob3AlMkNtZXRhY2hlY2s=" data-listing-date-sort="1751410800000" data-listing-file-modified-sort="1762790034173" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-title-sort="MetaScience Unconference" data-listing-filename-sort="2025-07-02_metascience-unconference.qmd">
+<td>
+<span class="listing-date">2025-07-02</span>
+</td>
+<td>
+<a href="./posts/2025-07-02_metascience-unconference.html" class="title listing-title">MetaScience Unconference</a>
+</td>
+<td>
+<span class="listing-author">Lisa DeBruine</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

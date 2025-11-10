@@ -1,0 +1,14 @@
+---
+title: "Open Research Summer School"
+date: 2025-07-23
+author: [Cristian Mesquida]
+categories: [workshop, metacheck]
+image: ../images/papercheck.png
+image-alt: The papercheck logo -- a green hexagon
+---
+
+Cristian Mesquida gave a Papercheck workshop at the [Open Research Summer School](https://www.kcl.ac.uk/events/open-research-summer-school-2025) at King's College London.
+
+He explained the rationale for automated checks, and walked the audience through some of the Papercheck modules. 
+
+You can find the workshop materials on the Open Science Framework: [osf.io/y4s76](https://osf.io/y4s76).

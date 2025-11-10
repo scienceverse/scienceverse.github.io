@@ -4,6 +4,8 @@ The increasingly digital workflow in science has made it possible to share almos
 
 We are developing software to achieve our goals of generating and processing machine-readable descriptions to facilitate archiving studies, pre-registration, finding variables and measures used in other research, meta-analyses of studies, finding and re-using datasets in other ways, and assessing research outputs for best practices.
 
+Our current focus is on developing MetaCheck, which aims to screen scientific manuscripts to identify potential issues or areas for improvement and guide researchers in adopting best practices. It can also assist with processing large numbers of papers for metascientific enquiry.
+
 ::: {layout-ncol=3}
 
 [![scienceverse generates machine-readable descriptions of research objects](images/scienceverse.png)](https://scienceverse.github.io/scienceverse/)
@@ -14,6 +16,29 @@ We are developing software to achieve our goals of generating and processing mac
 
 :::
 
+## Funding
+
+This project is partially funded by the TDCC [Research Transparency Check Project](https://transparencycheck.github.io/), co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a Vici grant to Daniël Lakens.
+
+## Core Team
+
+Scienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), Jakub Werner (RA, TUE), Lavinia (RA, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), and Max Littel (RA, VU).
+
+::: {layout-ncol=6}
+
+![Lisa DeBruine](images/debruine.jpg)
+
+![Daniël Lakens](images/lakens.jpg)
+
+![Cristian Mesquida](images/mesquida.jpg)
+
+![Jakub Werner](images/werner.jpg)
+
+![René Bekkers](images/bekkers.jpg)
+
+![Max Littel](images/littel.jpg)
+
+:::
 
 ## Publications
 

@@ -1,0 +1,20 @@
+---
+title: "Introductory Blog Posts"
+date: 2025-07-27
+author: [Daniël Lakens]
+categories: [blog, metacheck]
+image: ../images/papercheck.png
+image-alt: The papercheck logo -- a green hexagon
+---
+
+We have started the project with a series of blog posts introducing the software package called [papercheck](https://scienceverse.github.io/papercheck/) that forms the basis for the project.
+
+1. [Introducing Papercheck](https://daniellakens.blogspot.com/2025/06/introducing-papercheck.html)
+2. [Automatically Checking Journal Article Reporting Standards](https://daniellakens.blogspot.com/2025/06/automatically-checking-journal-article.html)
+3. [Checking Data and Code in Repositories](https://daniellakens.blogspot.com/2025/06/checking-data-and-code-in-repositories.html)
+4. [Retrieving Planned Sample Sizes](https://daniellakens.blogspot.com/2025/06/retrieving-planned-sample-sizes-from.html)
+5. [Easily Download OSF Files](https://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html)
+
+The posts attracted attention of researchers primarily in the meta science community. We are exploring new collaborations and continue to look for similar initiatives, tools and verification data. If you know of any new developments we should know about, please let us know.
+
+Over the summer we will be developing and validating new modules for the software, focusing primarily on the field of experimental psychology. After the summer we will start with the deliberative conversations in other data communities.

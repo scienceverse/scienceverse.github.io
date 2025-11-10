@@ -1,0 +1,14 @@
+---
+title: "Posts"
+listing:
+  contents: posts
+  date-format: iso
+  sort: "date desc"
+  type: table
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  image-placeholder: "images/scienceverse.png"
+page-layout: full
+title-block-banner: false
+---

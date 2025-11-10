@@ -12,9 +12,8 @@ website:
   navbar:
     logo: /images/scienceverse.png
     logo-alt: "Red hexagon with SCIENCE VERSE in black art deco letters"
-    # right:
-    #   - text: Metacheck
-    #     href: https://scienceverse.github.io/metacheck/
+    right:
+      - href: posts.qmd
     #   - text: Scienceverse
     #     href: https://scienceverse.github.io/scienceverse/
     #   - text: Faux

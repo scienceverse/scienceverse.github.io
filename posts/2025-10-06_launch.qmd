@@ -1,0 +1,21 @@
+---
+title: "Transparency Check Launch Event"
+date: 2025-10-06
+author: [Rene Bekkers]
+categories: [event, transparency check]
+image: ../images/verisci.png
+image-alt: A green hexagon with a check
+---
+
+On Monday October 6, 2025, 14.00-17.00 in the Aurora room of the main building at VU Amsterdam, we had the Kick-off meeting for Transparency Check.
+
+### Program
+
+1. A plenary keynote by Daniel Lakens and Rene Bekkers, introducing the project
+2. A plenary illustration of transparency indicators that you can already assess with the papercheck package by Lisa DeBruine
+3. Parallel sessions:
+    A. Deliberative conversation on transparency indicators, providing input on which aspects of research reports we should develop modules for;
+    B. Software testing and development workshop, providing a user experience and suggestions for improvement of existing modules
+4. Plenary closing by Rene Bekkers
+
+Because of budget limitations, we cannot reimburse travel and accommodation. We will provide a link to an online meeting room if you cannot make it to Amsterdam.
