@@ -3,7 +3,7 @@ title: "Transparency Check Launch Event"
 date: 2025-10-06
 author: [Rene Bekkers]
 categories: [event, transparency check]
-image: ../images/verisci.png
+image: ../images/logos/verisci.png
 image-alt: A green hexagon with a check
 ---
 

@@ -8,7 +8,7 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
-  image-placeholder: "images/scienceverse.png"
+  image-placeholder: "images/logos/scienceverse.png"
 page-layout: full
 title-block-banner: false
 ---

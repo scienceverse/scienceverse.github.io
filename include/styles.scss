@@ -20,8 +20,20 @@ $link-color: #3274B5;
 
 /* rainbow borders */
 nav {
+  /* 
   margin-top: 18px;
   box-shadow: 0 -6px 0 0px var(--blue),
               0 -12px 0 0px var(--green),
               0 -18px 0 0px var(--red);
+  */
 }
+
+img.navbar-logo {
+  max-height: 2em;
+}
+
+/*
+nav.navbar {
+  background: center center no-repeat url("../images/divider.svg");
+}
+*/

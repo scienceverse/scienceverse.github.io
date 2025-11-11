@@ -8,35 +8,39 @@ Our current focus is on developing MetaCheck, which aims to screen scientific ma
 
 ::: {layout-ncol=3}
 
-[![scienceverse generates machine-readable descriptions of research objects](images/scienceverse.png)](https://scienceverse.github.io/scienceverse/)
+[![scienceverse generates machine-readable descriptions of research objects](images/logos/scienceverse.png)](https://scienceverse.github.io/scienceverse/)
 
-[![metacheck provides extendable tools for checking research outputs for best practices](images/metacheck.png)](https://scienceverse.github.io/metacheck/)
+[![metacheck provides extendable tools for checking research outputs for best practices](images/logos/metacheck.png)](https://scienceverse.github.io/metacheck/)
 
-[![faux simulates data from descriptive statistics](images/faux.png)](https://scienceverse.github.io/faux/)
+[![faux simulates data from descriptive statistics](images/logos/faux.png)](https://scienceverse.github.io/faux/)
 
 :::
 
 ## Funding
 
-This project is partially funded by the TDCC [Research Transparency Check Project](https://transparencycheck.github.io/), co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a Vici grant to Daniël Lakens.
+This project is partially funded by the TDCC [Research Transparency Check Project](https://transparencycheck.github.io/), co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a [Vici grant](https://www.tue.nl/en/news-and-events/news-overview/28-02-2025-nwo-vici-grants-awarded-to-daniel-lakens-and-peter-zijlstra) to Daniël Lakens.
 
 ## Core Team
 
 Scienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), Jakub Werner (RA, TUE), Hadeel Khawatmy (RA, TUE), Lavinia Ion (RA, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), and Max Littel (RA, VU).
 
-::: {layout-ncol=6}
+::: {layout-ncol=4}
 
-![Lisa DeBruine](images/debruine.jpg)
+![Lisa DeBruine](images/people/debruine.jpg)
 
-![Daniël Lakens](images/lakens.jpg)
+![Daniël Lakens](images/people/lakens.jpg)
 
-![Cristian Mesquida](images/mesquida.jpg)
+![Cristian Mesquida](images/people/mesquida.jpg)
 
-![Jakub Werner](images/werner.jpg)
+![Jakub Werner](images/people/werner.jpg)
 
-![René Bekkers](images/bekkers.jpg)
+![Hadeel Khawatmy](images/people/khawatmy.jpg)
 
-![Max Littel](images/littel.jpg)
+![Lavinia Ion](images/people/ion.jpg)
+
+![René Bekkers](images/people/bekkers.jpg)
+
+![Max Littel](images/people/littel.jpg)
 
 :::
 

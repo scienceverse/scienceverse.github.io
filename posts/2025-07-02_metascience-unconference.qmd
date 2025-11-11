@@ -3,7 +3,7 @@ title: "MetaScience Unconference"
 date: 2025-07-02
 author: [Lisa DeBruine]
 categories: [workshop, metacheck]
-image: ../images/metascience.png
+image: ../images/logos/metascience.png
 image-alt: The metascience logo -- a abstract red and orange shape
 ---
 

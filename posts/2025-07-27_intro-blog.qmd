@@ -3,7 +3,7 @@ title: "Introductory Blog Posts"
 date: 2025-07-27
 author: [Daniël Lakens]
 categories: [blog, metacheck]
-image: ../images/papercheck.png
+image: ../images/logos/papercheck.png
 image-alt: The papercheck logo -- a green hexagon
 ---
 

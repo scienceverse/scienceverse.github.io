@@ -1,23 +1,20 @@
 project:
   type: website
   output-dir: docs
+  resources: images
 
 website:
   title: "ScienceVerse"
   site-url: https://scienceverse.github.io
   repo-url: https://github.com/scienceverse/scienceverse.github.io
-  image: /images/scienceverse.png
+  image: /images/logos/scienceverse.png
 #  favicon: /images/favicon.ico
   open-graph: true
   navbar:
-    logo: /images/scienceverse.png
+    logo: /images/logos/scienceverse.png
     logo-alt: "Red hexagon with SCIENCE VERSE in black art deco letters"
     right:
       - href: posts.qmd
-    #   - text: Scienceverse
-    #     href: https://scienceverse.github.io/scienceverse/
-    #   - text: Faux
-    #     href: https://scienceverse.github.io/faux/
 format:
   html:
     theme: spacelab

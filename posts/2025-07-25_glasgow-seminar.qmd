@@ -3,7 +3,7 @@ title: "Glasgow Seminar on Papercheck"
 date: 2025-07-25
 author: [Lisa DeBruine]
 categories: [talk, metacheck]
-image: ../images/glasgow.png
+image: ../images/logos/glasgow.png
 image-alt: The University of Glasgow crest - blue with a bird, tree, book, bell and fish
 ---
 
