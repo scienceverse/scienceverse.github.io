@@ -15,6 +15,11 @@ website:
     logo-alt: "Red hexagon with SCIENCE VERSE in black art deco letters"
     right:
       - href: posts.qmd
+      - text: "Talks"
+        href: talks/
+      - text: " "
+        icon: github
+        href: https://github.com/scienceverse
 format:
   html:
     theme: spacelab
