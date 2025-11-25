@@ -2,7 +2,7 @@
 title: "Open Research Summer School"
 date: 2025-07-23
 author: [Cristian Mesquida]
-categories: [workshop, metacheck]
+categories: [workshop, metacheck, summerschool]
 image: ../images/logos/papercheck.png
 image-alt: The papercheck logo -- a green hexagon
 ---
