@@ -14,6 +14,12 @@ Our current focus is on developing MetaCheck, which aims to screen scientific ma
 
 [![faux simulates data from descriptive statistics](images/logos/faux.png)](https://scienceverse.github.io/faux/)
 
+[![svutils provides common utility functions for scienceverse packages](images/logos/svutils.png)](https://scienceverse.github.io/svutils/)
+
+[![schema collects JSON schema for research objects](images/logos/schema.png)](https://scienceverse.github.io/schema/)
+
+![bibr for accuracy-first bibliographic metadata extraction](images/logos/bibr.png)
+
 :::
 
 ## Funding
@@ -22,9 +28,9 @@ This project is partially funded by the TDCC [Research Transparency Check Projec
 
 ## Core Team
 
-Scienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), Jakub Werner (RA, TUE), Hadeel Khawatmy (RA, TUE), Lavinia Ion (RA, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), and Max Littel (RA, VU).
+Scienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), Max Littel (RA, VU), Jakub Werner (RA, TUE), Hadeel Khawatmy (RA, TUE), Lavinia Ion (RA, TUE), Levi Baruch (RA, TUE), and Mink Veltman (RA, TUE).
 
-::: {layout-ncol=4}
+::: {layout-ncol=5}
 
 ![Lisa DeBruine](images/people/debruine.jpg)
 
@@ -32,15 +38,20 @@ Scienceverse is a collaborative project led by Lisa DeBruine (University of Glas
 
 ![Cristian Mesquida](images/people/mesquida.jpg)
 
+
+![René Bekkers](images/people/bekkers.jpg)
+
+![Max Littel](images/people/littel.jpg)
+
 ![Jakub Werner](images/people/werner.jpg)
 
 ![Hadeel Khawatmy](images/people/khawatmy.jpg)
 
 ![Lavinia Ion](images/people/ion.jpg)
 
-![René Bekkers](images/people/bekkers.jpg)
+![Levi Baruch](images/people/baruch.jpg)
 
-![Max Littel](images/people/littel.jpg)
+![Mink Veltman](images/people/mink.jpg)
 
 :::
 
