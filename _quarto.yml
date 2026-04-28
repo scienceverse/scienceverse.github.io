@@ -14,6 +14,7 @@ website:
     logo: /images/logos/scienceverse.png
     logo-alt: "Red hexagon with SCIENCE VERSE in black art deco letters"
     right:
+      - href: values.qmd
       - href: posts.qmd
       - text: "Talks"
         href: talks/

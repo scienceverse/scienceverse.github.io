@@ -1,0 +1,17 @@
+---
+title: "Values"
+format: html
+---
+
+The values below guide our priorities and decision-making for all Scienceverse projects. 
+
+1. **Transparency and Reproducibility**: we want that anyone can verify all information we use and create. 
+2. **Fair Recognition and Rewards for Contributors**: we want contributions to knowledge, data, code, and software to be uniquely and persistently identified, and benefit a diverse range of contributors. 
+3. **Accessibility, Adoption and Diffusion**: we want to provide our knowledge, data, code and software to all potential users with minimal barriers to access. 
+4. **Community Engagement and Epistemic Diversity**: we want our work to reflect and respect the needs of a diverse range of research communities, and benefit their research practices.
+5. **Quality Control**: we want the knowledge, data, code and software we create to be verified and accurate.
+6. **Scientific Knowledge is a Public Good**: we affirm the UNESCO recommendation on Open Science. We want to make science more transparent because it "furthers the right of everyone to share in scientific advancement and its benefits as stated in Article 27.1 of the [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)" (UNESCO, 2023).
+7. **Sustainability**: we are committed to the long-term viability of our work. We will actively protect and future-proof our work through technical maintenance, governance structures and strategic planning to make it a durable and relevant public good.
+8. **Consistency**: we want to do what we claim and claim what we do. We affirm our principles in practice, and avoid professing any we cannot uphold.
+
+These values are modified from the [values statement of the Research Transparency Check project](https://docs.google.com/document/d/1bbIkgUaiz3fpTXAeTF3h-gsfhqWEBN_n6OBcbFLfXjw), which partially funds the development of scienceverse projects metacheck and bibr.
