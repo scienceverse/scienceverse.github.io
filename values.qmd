@@ -5,13 +5,24 @@ format: html
 
 The values below guide our priorities and decision-making for all Scienceverse projects. 
 
-1. **Transparency and Reproducibility**: we want that anyone can verify all information we use and create. 
-2. **Fair Recognition and Rewards for Contributors**: we want contributions to knowledge, data, code, and software to be uniquely and persistently identified, and benefit a diverse range of contributors. 
-3. **Accessibility, Adoption and Diffusion**: we want to provide our knowledge, data, code and software to all potential users with minimal barriers to access. 
-4. **Community Engagement and Epistemic Diversity**: we want our work to reflect and respect the needs of a diverse range of research communities, and benefit their research practices.
-5. **Quality Control**: we want the knowledge, data, code and software we create to be verified and accurate.
-6. **Scientific Knowledge is a Public Good**: we affirm the UNESCO recommendation on Open Science. We want to make science more transparent because it "furthers the right of everyone to share in scientific advancement and its benefits as stated in Article 27.1 of the [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights)" (UNESCO, 2023).
-7. **Sustainability**: we are committed to the long-term viability of our work. We will actively protect and future-proof our work through technical maintenance, governance structures and strategic planning to make it a durable and relevant public good.
-8. **Consistency**: we want to do what we claim and claim what we do. We affirm our principles in practice, and avoid professing any we cannot uphold.
+
+1. **Quality Control**: The knowledge, data, code and software we create will be verified for accuracy, using publicly available methods and measures, such that users have enough context to interpret the results.
+
+2. **Transparency**: We are committed to open source software and open access datasets for validation.
+
+3. **AI Optional**: The use of generative AI will always be opt-in and transparently declared. We will prioritise non-AI functions where possible, and limit generative AI use to cases where it provides substantial benefits that cannot be realised with other methods.
+
+4. **No Automated Evaluation**: While our software is designed to assist the evaluation of research, we will never support automated rankings or scoring.
+
+5. **Data Privacy**: We will be fully transparent about what data we have access to and how those data will be used, as well as what will be shared with external services. Wherever possible, we will prioritise functions that share minimal data and services that have robust data protection. We will meet all EU data privacy regulations. 
+
+6. **Accessibility**: We will provide our knowledge, data, code and software to all potential users with minimal barriers to access. We will prioritise access that is not unduly limited by wealth, disability or technical knowledge.
+
+7. **Community Engagement**: Our work will reflect and respect the needs of a diverse range of research communities, and benefit their research practices. We are open to critique from the research community.
+
+8. **Sustainability**: We are committed to the long-term viability of our work. We will actively protect and future-proof our work through technical maintenance, governance structures and strategic planning to make it a durable and relevant public good.
+
+9. **Fair Recognition and Reward**: Contributions to knowledge, data, code, and software will be uniquely and persistently identified, and benefit a diverse range of contributors. 
+
 
 These values are modified from the [values statement of the Research Transparency Check project](https://docs.google.com/document/d/1bbIkgUaiz3fpTXAeTF3h-gsfhqWEBN_n6OBcbFLfXjw), which partially funds the development of scienceverse projects metacheck and bibr.
