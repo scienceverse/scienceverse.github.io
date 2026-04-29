@@ -10,7 +10,7 @@ The values below guide our priorities and decision-making for all Scienceverse p
 
 2. **Transparency**: We are committed to open source software and open access datasets for validation.
 
-3. **AI Optional**: The use of generative AI will always be opt-in and transparently declared. We will prioritise non-AI functions where possible, and limit generative AI use to cases where it provides substantial benefits that cannot be realised with other methods.
+3. **AI Optional**: The use of large language models (LLMs) will be restricted to classification of existing text, not generation of evaluations. The use of LLMs will always be opt-in and transparently declared. We will prioritise non-LLM functions where possible, and limit use to cases where it provides substantial benefits that cannot be realised with other methods, such as regular expressions. 
 
 4. **No Automated Evaluation**: While our software is designed to assist the evaluation of research, we will never support automated rankings or scoring.
 
