@@ -1,0 +1,17 @@
+---
+title: "Perspectives on Scientific Error"
+date: 2026-02-11
+categories: [metacheck, conference]
+image: ../images/PSE8.jpg
+image-alt: "The team standing on a staircase, from the left: Daniel Lakens, Lisa DeBruine, Rene Bekkers, Jakob Werner, Max Littel, and Christian Mesquida"
+---
+
+The team attended the 8th annual [Perspectives on Scientific Error](https://perspectivesonscientificerror2026.wordpress.com/) conference February 11-13 in Leiden and held an unofficial metacheck hackathon on the final day. 
+
+All of the talks and posters were great, but everyone especially enjoyed Leif Nelson's keynote on "Finding Lies from the People Who Create the Truths". Attila Simkó's talk on "Automating Code Reproducibility" was also especially relevant to our projects. 
+
+PhD student Raphael Merz presented a poster on "From Detection to Correction: A Hybrid Rule–NLP Approach to Misinterpretations of Nonsignificant p Values". 
+
+
+![Daniel Lakens, Lisa DeBruine, Rene Bekkers, Jakob Werner, Max Littel, and Christian Mesquida](../images/PSE8.jpg)
+

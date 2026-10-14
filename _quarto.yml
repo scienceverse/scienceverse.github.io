@@ -15,7 +15,7 @@ website:
     logo-alt: "Red hexagon with SCIENCE VERSE in black art deco letters"
     right:
       - href: values.qmd
-      - href: posts.qmd
+      - href: news.qmd
       - text: "Talks"
         href: talks/
       - text: " "

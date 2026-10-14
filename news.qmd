@@ -1,7 +1,8 @@
 ---
-title: "Posts"
+title: "News"
 listing:
-  contents: posts
+  contents: news
+  fields: [date, title, description]
   date-format: iso
   sort: "date desc"
   type: table

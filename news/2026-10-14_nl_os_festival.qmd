@@ -1,0 +1,14 @@
+---
+title: "NL Open Science Festival"
+date: 2026-10-14
+categories: [metacheck]
+image: ../images/logos/metacheck.png
+image-alt: The metacheck logo -- a green hexagon
+description: "Cristian Mesquida and Daniel Lakens presented a workshop titled [Metacheck: An Automated Tool to Improve the Quality of Scientific Articles](https://opensciencefestival.nl/programme-items/metacheck-an-automated-tool-to-improve-the-quality-of-scientific-articles-part-1) at the National Open Science Festival in Delft."
+---
+
+> We present Metacheck, an open-source R package that supports evaluation of scientific manuscripts for adherence to open science best practices. The tool automates checks such as compliance with reporting guidelines, data and code sharing practices, and potential misinterpretation of p-values.
+
+> In this workshop, we will demonstrate how to use Metacheck’s Shiny app to analyze manuscripts, from processing PDFs into structured formats to running checks and interpreting results.
+
+> Participants will learn how to install and use the Metacheck R package to run its modules and interpret the results when evaluating manuscripts or sets of papers.
