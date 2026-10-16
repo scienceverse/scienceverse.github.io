@@ -32,6 +32,17 @@ img.navbar-logo {
   max-height: 2em;
 }
 
+.listing-description {
+  font-size: smaller;
+}
+
+.listing-image img {
+  height: auto !important;
+  width: auto !important;
+  max-height: 5em;
+  max-width: 10em;
+}
+
 /*
 nav.navbar {
   background: center center no-repeat url("../images/divider.svg");
