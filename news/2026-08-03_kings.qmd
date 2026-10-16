@@ -1,0 +1,19 @@
+---
+title: "Can automated tools help researchers catch problems before their work is published?"
+date: 2026-08-03
+categories: [metacheck, talk, video]
+image: ../images/kings2026.jpg
+image-alt: Youtube preview with photo of Daniel and test reading 'METACHECK automatically checks papers for best practices'
+---
+
+In this talk from the King’s Open Research Summer School 2026, Professor Daniël Lakens (Eindhoven University of Technology) introduces metacheck, an open-source toolkit designed to automatically screen scientific manuscripts and research outputs for potential issues and opportunities for improvement.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OWd2zEwhI-4?si=XT0CDOoglOeZBYNr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Inspired by automated quality-control checks in software development, metacheck can help researchers identify issues such as incorrect citations, missing DOIs, references to retracted or questioned papers, and commonly misreported methodological and statistical practices.
+
+Importantly, metacheck is designed to support rather than replace human expertise. It does not automatically score or judge the quality of research. Instead, it highlights areas that researchers may want to investigate, with interpretation and decision-making remaining with the researcher.
+
+The talk demonstrates how automated checks could become part of routine research workflows, helping researchers identify errors earlier and strengthen the transparency, reproducibility, and credibility of scientific research.
+
+This presentation was recorded as part of the King’s Open Research Summer School 2026, hosted by King’s College London.

@@ -2,14 +2,15 @@
 title: "News"
 listing:
   contents: news
-  fields: [date, title, description]
+  fields: [date, title, description, image]
   date-format: iso
   sort: "date desc"
-  type: table
+  type: default
   categories: true
   sort-ui: true
   filter-ui: true
-  image-placeholder: "images/logos/scienceverse.png"
+  image-placeholder: "images/logos/scienceverse-wide.png"
+  max-description-length: 500
 page-layout: full
 title-block-banner: false
 ---
