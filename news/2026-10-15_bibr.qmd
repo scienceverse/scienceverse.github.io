@@ -1,0 +1,39 @@
+---
+title: "Introducing bibr!"
+date: 2026-10-15
+categories: [bibr]
+image: ../images/logos/bibr-wide.png
+image-alt: "The bibr hex logo on a diamon rainbow background"
+---
+
+Jakub Werner's bibr 🦫 (bibliography rodent) is in alpha! We will be transitioning to using this method for PDF extraction in metacheck and related tools, at it is specifically designed for accurate extraction of paper components that matter most to best practices.
+
+(text below adapted from Jakub's [LinkedIn post](https://lnkd.in/p/eVuescXi))
+
+bibr extracts scientific PDFs into structured data - ready for archival, RAG, or (like Metacheck) reliable analysis for researchers. In our testing, bibr is more accurate than GROBID, the  open-source standard (and a big inspiration), across fields, while also adding many extra features.
+
+- 100% self-hostable and private
+- Built on modern open-source ML (Paddle, Qwen, ModernBERT) + small models we trained ourselves.
+- Fully traceable: match every sentence to its section and page
+- Determinism where possible: rules and explainable ML preferred, LLM only runs on what they can't do well. 
+
+Try it out by running `pip install bibr`, or in the web demo (https://try.bibr.org)!
+
+On 300 open-access papers published since July that bibr wasn’t trained on, checked against the publishers’ own XML, it got the title, DOI, authors and reference list right on 91% of them, against 62% for GROBID. On behavioral science, today’s release pushes that to 95.5% with fixes found during the test.
+
+bibr features an export schema co-developed with Lisa DeBruine and the Metascience community, extracting:
+
+- title, authors, affiliations, DOI, funding, statements
+- references, parsed by our own model, with BibTeX and RIS export (and optional Crossref matching)
+- all sections and their text, sentence by sentence
+- parsed tables (as HTML or rows/cells), figures and equations
+- IMRaD section classification
+- OECD Frascati field and paper type
+- and more!
+
+On a single customer-grade RTX 5090 GPU, bibr chews through 1100+ behavioral-science papers per hour.
+
+Our next frontier is more validation. As Hussey, Jung and Cummins write <https://lnkd.in/p/ejtya73X>, building tools is no longer the hard part with Agentic AI, it's validation.
+
+We welcome any feedback. If bibr is potentially relevant to your use case, get in touch! There are still many areas for improvement, but we hope it can already be very useful.
+

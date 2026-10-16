@@ -1,6 +1,29 @@
+---
+listing:
+  id: news-listing
+  contents: news
+  fields: [date, title, description, image]
+  date-format: iso
+  sort: "date desc"
+  type: default
+  max-items: 2
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  image-placeholder: "images/logos/scienceverse-wide.png"
+  max-description-length: 500
+---
+
 The increasingly digital workflow in science has made it possible to share almost all aspects of the research cycle, from pre-registered analysis plans and study materials to the data and analysis code that produce the reported results. Although the growing availability of research output is a positive development, most of this digital information is in a format that makes it difficult to [find, access, and reuse](https://www.go-fair.org/fair-principles/). A major barrier is the lack of a framework to concisely describe every component of research in a machine-readable format: *A grammar of science*. 
 
 See our [values statement](values.qmd) for a list of the values that guide this project.
+
+### Recent News
+
+::: {#news-listing}
+:::
+
+[Older news...](news.html)
 
 ## Software
 
@@ -20,7 +43,7 @@ Our current focus is on developing MetaCheck, which aims to screen scientific ma
 
 [![schema collects JSON schema for research objects](images/logos/schema.png)](https://scienceverse.github.io/schema/)
 
-![bibr for accuracy-first bibliographic metadata extraction](images/logos/bibr.png)
+[![bibr for accuracy-first bibliographic metadata extraction](images/logos/bibr.png)](https://github.com/scienceverse/bibr)
 
 :::
 
