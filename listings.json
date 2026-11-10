@@ -1,13 +1,13 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
       "/news/2026-10-15_bibr.html",
       "/news/2026-10-14_nl_os_festival.html",
       "/news/2026-08-03_kings.html",
       "/news/2026-02-13_PSE8.html",
-      "/news/2025-10-28_festival-of-ai.html",
       "/news/2025-10-27_ai-ethics.html",
+      "/news/2025-10-28_festival-of-ai.html",
       "/news/2025-10-06_launch.html",
       "/news/2025-07-27_intro-blog.html",
       "/news/2025-07-25_glasgow-seminar.html",
@@ -16,14 +16,14 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
       "/news/2026-10-15_bibr.html",
       "/news/2026-10-14_nl_os_festival.html",
       "/news/2026-08-03_kings.html",
       "/news/2026-02-13_PSE8.html",
-      "/news/2025-10-28_festival-of-ai.html",
       "/news/2025-10-27_ai-ethics.html",
+      "/news/2025-10-28_festival-of-ai.html",
       "/news/2025-10-06_launch.html",
       "/news/2025-07-27_intro-blog.html",
       "/news/2025-07-25_glasgow-seminar.html",

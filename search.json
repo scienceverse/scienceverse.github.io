@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "news/2025-07-23_open-research-summer-school.html",
-    "href": "news/2025-07-23_open-research-summer-school.html",
-    "title": "Open Research Summer School",
+    "objectID": "values.html",
+    "href": "values.html",
+    "title": "Values",
     "section": "",
-    "text": "Cristian Mesquida gave a Papercheck workshop at the Open Research Summer School at King’s College London.\nHe explained the rationale for automated checks, and walked the audience through some of the Papercheck modules.\nYou can find the workshop materials on the Open Science Framework: osf.io/y4s76."
-  },
-  {
-    "objectID": "news/2025-07-02_metascience-unconference.html",
-    "href": "news/2025-07-02_metascience-unconference.html",
-    "title": "MetaScience Unconference",
-    "section": "",
-    "text": "Lisa DeBruine gave an impromptu Papercheck workshop in the unconference section of the MetaScience conference at UCL in London.\nAbout a dozen people attended and we discussed how Papercheck could help with their metascientific resaerch workflows."
-  },
-  {
-    "objectID": "news/2025-07-27_intro-blog.html",
-    "href": "news/2025-07-27_intro-blog.html",
-    "title": "Introductory Blog Posts",
-    "section": "",
-    "text": "We have started the project with a series of blog posts introducing the software package called papercheck that forms the basis for the project.\n\nIntroducing Papercheck\nAutomatically Checking Journal Article Reporting Standards\nChecking Data and Code in Repositories\nRetrieving Planned Sample Sizes\nEasily Download OSF Files\n\nThe posts attracted attention of researchers primarily in the meta science community. We are exploring new collaborations and continue to look for similar initiatives, tools and verification data. If you know of any new developments we should know about, please let us know.\nOver the summer we will be developing and validating new modules for the software, focusing primarily on the field of experimental psychology. After the summer we will start with the deliberative conversations in other data communities."
+    "text": "The values below guide our priorities and decision-making for all Scienceverse projects.\n\nQuality Control: The knowledge, data, code and software we create will be verified for accuracy, using publicly available methods and measures, such that users have enough context to interpret the results.\nTransparency: We are committed to open source software and open access datasets for validation.\nAI Optional: The use of large language models (LLMs) will be restricted to classification of existing text, not evaluation of the quality of practice. The use of LLMs will always be opt-in and transparently declared. We will prioritise non-LLM functions where possible, and limit use to cases where it provides substantial benefits that cannot be realised with other methods, such as regular expressions.\nNo Automated Evaluation: While our software is designed to assist the evaluation of research by highlighting aspects where practice may be improved, we will never support automated quality assessments, rankings or scoring.\nData Privacy: We will be fully transparent about what data we have access to and how those data will be used, as well as what will be shared with external services. Wherever possible, we will prioritise functions that share minimal data and services that have robust data protection. We will meet all EU data privacy regulations.\nAccessibility: We will provide our knowledge, data, code and software to all potential users with minimal barriers to access. We will prioritise access that is not unduly limited by wealth, disability or technical knowledge.\nCommunity Engagement: Our work will reflect and respect the needs of a diverse range of research communities, and benefit their research practices. We are open to critique from the research community.\nSustainability: We are committed to the long-term viability of our work. We will actively protect and future-proof our work through technical maintenance, governance structures and strategic planning to make it a durable and relevant public good.\nFair Recognition and Reward: Contributions to knowledge, data, code, and software will be uniquely and persistently identified, and benefit a diverse range of contributors.\n\nThese values are modified from the values statement of the Research Transparency Check project, which partially funds the development of scienceverse projects metacheck and bibr."
   },
   {
     "objectID": "news/2025-07-25_glasgow-seminar.html",
@@ -35,18 +21,39 @@
     "text": "Abstract\nIn this talk, I will introduce Papercheck, a new tool that leverages text search, code, and large language models to extract and supplement information from scientific documents (including manuscripts, submitted or published articles, or preregistration documents) and provides automated suggestions for improvement.\nInspired by practices in software development, where automated checks (e.g., CRAN checks for R packages) are used to identify issues before release, Papercheck aims to screen scientific manuscripts to identify potential issues or areas for improvement and guide researchers in adopting best practices. It can also assist with processing large numbers of papers for metascientific enquiry."
   },
   {
-    "objectID": "news/2026-10-15_bibr.html",
-    "href": "news/2026-10-15_bibr.html",
-    "title": "Introducing bibr!",
+    "objectID": "news/2025-07-27_intro-blog.html",
+    "href": "news/2025-07-27_intro-blog.html",
+    "title": "Introductory Blog Posts",
     "section": "",
-    "text": "Jakub Werner’s bibr 🦫 (bibliography rodent) is in alpha! We will be transitioning to using this method for PDF extraction in metacheck and related tools, at it is specifically designed for accurate extraction of paper components that matter most to best practices.\n(text below adapted from Jakub’s LinkedIn post)\nbibr extracts scientific PDFs into structured data - ready for archival, RAG, or (like Metacheck) reliable analysis for researchers. In our testing, bibr is more accurate than GROBID, the open-source standard (and a big inspiration), across fields, while also adding many extra features.\n\n100% self-hostable and private\nBuilt on modern open-source ML (Paddle, Qwen, ModernBERT) + small models we trained ourselves.\nFully traceable: match every sentence to its section and page\nDeterminism where possible: rules and explainable ML preferred, LLM only runs on what they can’t do well.\n\nTry it out by running pip install bibr, or in the web demo (https://try.bibr.org)!\nOn 300 open-access papers published since July that bibr wasn’t trained on, checked against the publishers’ own XML, it got the title, DOI, authors and reference list right on 91% of them, against 62% for GROBID. On behavioral science, today’s release pushes that to 95.5% with fixes found during the test.\nbibr features an export schema co-developed with Lisa DeBruine and the Metascience community, extracting:\n\ntitle, authors, affiliations, DOI, funding, statements\nreferences, parsed by our own model, with BibTeX and RIS export (and optional Crossref matching)\nall sections and their text, sentence by sentence\nparsed tables (as HTML or rows/cells), figures and equations\nIMRaD section classification\nOECD Frascati field and paper type\nand more!\n\nOn a single customer-grade RTX 5090 GPU, bibr chews through 1100+ behavioral-science papers per hour.\nOur next frontier is more validation. As Hussey, Jung and Cummins write https://lnkd.in/p/ejtya73X, building tools is no longer the hard part with Agentic AI, it’s validation.\nWe welcome any feedback. If bibr is potentially relevant to your use case, get in touch! There are still many areas for improvement, but we hope it can already be very useful."
+    "text": "We have started the project with a series of blog posts introducing the software package called papercheck that forms the basis for the project.\n\nIntroducing Papercheck\nAutomatically Checking Journal Article Reporting Standards\nChecking Data and Code in Repositories\nRetrieving Planned Sample Sizes\nEasily Download OSF Files\n\nThe posts attracted attention of researchers primarily in the meta science community. We are exploring new collaborations and continue to look for similar initiatives, tools and verification data. If you know of any new developments we should know about, please let us know.\nOver the summer we will be developing and validating new modules for the software, focusing primarily on the field of experimental psychology. After the summer we will start with the deliberative conversations in other data communities."
   },
   {
-    "objectID": "news/2025-10-28_festival-of-ai.html",
-    "href": "news/2025-10-28_festival-of-ai.html",
-    "title": "Research Literature Demonstration: Festival of Data Science and AI",
+    "objectID": "news/2025-07-02_metascience-unconference.html",
+    "href": "news/2025-07-02_metascience-unconference.html",
+    "title": "MetaScience Unconference",
     "section": "",
-    "text": "Lisa DeBruine gave a Papercheck workshop at the Festival of Data Science and AI at the University of Glasgow in Scotland.\nWe had an in-depth demonstration of how Papercheck might be useful for systematic reviews."
+    "text": "Lisa DeBruine gave an impromptu Papercheck workshop in the unconference section of the MetaScience conference at UCL in London.\nAbout a dozen people attended and we discussed how Papercheck could help with their metascientific resaerch workflows."
+  },
+  {
+    "objectID": "news/2025-07-23_open-research-summer-school.html",
+    "href": "news/2025-07-23_open-research-summer-school.html",
+    "title": "Open Research Summer School",
+    "section": "",
+    "text": "Cristian Mesquida gave a Papercheck workshop at the Open Research Summer School at King’s College London.\nHe explained the rationale for automated checks, and walked the audience through some of the Papercheck modules.\nYou can find the workshop materials on the Open Science Framework: osf.io/y4s76."
+  },
+  {
+    "objectID": "news/2026-02-13_PSE8.html",
+    "href": "news/2026-02-13_PSE8.html",
+    "title": "Perspectives on Scientific Error",
+    "section": "",
+    "text": "The team attended the 8th annual Perspectives on Scientific Error conference February 11-13 in Leiden and held an unofficial metacheck hackathon on the final day. PhD student Raphael Merz presented a poster on “From Detection to Correction: A Hybrid Rule–NLP Approach to Misinterpretations of Nonsignificant p Values”.\nAll of the talks and posters were great, but everyone especially enjoyed Leif Nelson’s keynote on “Finding Lies from the People Who Create the Truths”. Attila Simkó’s talk on “Automating Code Reproducibility” was also especially relevant to our projects.\n\n\n\nDaniel Lakens, Lisa DeBruine, Rene Bekkers, Jakob Werner, Max Littel, and Christian Mesquida"
+  },
+  {
+    "objectID": "news/2026-08-03_kings.html",
+    "href": "news/2026-08-03_kings.html",
+    "title": "Can automated tools help researchers catch problems before their work is published?",
+    "section": "",
+    "text": "In this talk from the King’s Open Research Summer School 2026, Professor Daniël Lakens (Eindhoven University of Technology) introduces metacheck, an open-source toolkit designed to automatically screen scientific manuscripts and research outputs for potential issues and opportunities for improvement.\n\n\nInspired by automated quality-control checks in software development, metacheck can help researchers identify issues such as incorrect citations, missing DOIs, references to retracted or questioned papers, and commonly misreported methodological and statistical practices.\nImportantly, metacheck is designed to support rather than replace human expertise. It does not automatically score or judge the quality of research. Instead, it highlights areas that researchers may want to investigate, with interpretation and decision-making remaining with the researcher.\nThe talk demonstrates how automated checks could become part of routine research workflows, helping researchers identify errors earlier and strengthen the transparency, reproducibility, and credibility of scientific research.\nThis presentation was recorded as part of the King’s Open Research Summer School 2026, hosted by King’s College London."
   },
   {
     "objectID": "sips2019.html",
@@ -96,41 +103,6 @@
     "title": "SIPS 2019 Hackathon on Open research documentation",
     "section": "Aligned Projects",
     "text": "Aligned Projects\nHow does Scienceverse integrate with other ongoing projects at SIPS? Is it possible for Scienceverse to facilitate these other projects? E.g., machine readable codebooks, better preregistration documents, Psych-DS, etc. Throughout SIPS, tag any projects you run into that Scienceverse should interact with!\n\nContributors\n\nrobert.t.thibault@gmail.com @rt_thibault\nerikbpanderson@gmail.com @ebanders\nJohannes Breuer, johannes.breuer@gesis.org, @MattEagle09\nmayer@psychologie.uzh.ch\nStephan Heunis\nThomas Richardson\nElise Gould\nZita Mayer\n\nThe list of Meta-data Projects and Tools is derived from the list generated by this group.\n\n\nIdeas\n\nEssential versus encouraged documentation\nAre the researchers responsible for inputting all the information? Or, should we involve librarians or others to fill in the grammar field?\nWhat if we still have meta-analyses where those interested in a specific questions fill in all the grammar? This takes the extra workload off the original researchers (find the right balance)\nCan we make a common format platform for meta-analysts and systematic reviewers to upload their findings too, so that the reviews can be continued into the future?\nThis could incentivize the release of old data\nCunningham’s law: the quickest way to find the right answer (online) is to post the wrong answer.\nCould journals (esp. community journals) implement checklists to help achieve a grammar of science (eg. OHBM–organization for human brain mapping, is using the COBIDAS checklist)\nWhat about journals like Psychological Science, or APA journals…\nPossibility to generate some visual output/summary of the study/project structure/design (that could be included in presentations or publications)?\nThe specification of all study parts (esp. In the analysis) for complex designs might be challenging (for example, longitudinal studies, complex sampling strategies, multilevel models, etc.)\nDocumentation ideally for whole research lifecycle (for a nice visualization of the research lifecycle see https://how-to-open.science/)\nIt should “threaten” to constrain exploratory research"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ScienceVerse",
-    "section": "",
-    "text": "The increasingly digital workflow in science has made it possible to share almost all aspects of the research cycle, from pre-registered analysis plans and study materials to the data and analysis code that produce the reported results. Although the growing availability of research output is a positive development, most of this digital information is in a format that makes it difficult to find, access, and reuse. A major barrier is the lack of a framework to concisely describe every component of research in a machine-readable format: A grammar of science.\nSee our values statement for a list of the values that guide this project."
-  },
-  {
-    "objectID": "index.html#software",
-    "href": "index.html#software",
-    "title": "ScienceVerse",
-    "section": "Software",
-    "text": "Software\nWe are developing software to achieve our goals of generating and processing machine-readable descriptions to facilitate archiving studies, pre-registration, finding variables and measures used in other research, meta-analyses of studies, finding and re-using datasets in other ways, and assessing research outputs for best practices.\nOur current focus is on developing MetaCheck, which aims to screen scientific manuscripts to identify potential issues or areas for improvement and guide researchers in adopting best practices. It can also assist with processing large numbers of papers for metascientific enquiry.\n\n\n\n\n\n\n\n\n\nscienceverse generates machine-readable descriptions of research objects\n\n\n\n\n\n\n\nmetacheck provides extendable tools for checking research outputs for best practices\n\n\n\n\n\n\n\nfaux simulates data from descriptive statistics\n\n\n\n\n\n\n\n\n\nsvutils provides common utility functions for scienceverse packages\n\n\n\n\n\n\n\nschema collects JSON schema for research objects\n\n\n\n\n\n\n\nbibr for accuracy-first bibliographic metadata extraction"
-  },
-  {
-    "objectID": "index.html#funding",
-    "href": "index.html#funding",
-    "title": "ScienceVerse",
-    "section": "Funding",
-    "text": "Funding\nThis project is partially funded by the TDCC Research Transparency Check Project, co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a Vici grant to Daniël Lakens."
-  },
-  {
-    "objectID": "index.html#core-team",
-    "href": "index.html#core-team",
-    "title": "ScienceVerse",
-    "section": "Core Team",
-    "text": "Core Team\nScienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), Max Littel (RA, VU), Jakub Werner (RA, TUE), Hadeel Khawatmy (RA, TUE), Lavinia Ion (RA, TUE), Levi Baruch (RA, TUE), and Mink Veltman (RA, TUE).\n\n\n\n\n\n\n\n\n\nLisa DeBruine\n\n\n\n\n\n\n\nDaniël Lakens\n\n\n\n\n\n\n\nCristian Mesquida\n\n\n\n\n\n\n\nRené Bekkers\n\n\n\n\n\n\n\nMax Littel\n\n\n\n\n\n\n\n\n\nJakub Werner\n\n\n\n\n\n\n\nHadeel Khawatmy\n\n\n\n\n\n\n\nLavinia Ion\n\n\n\n\n\n\n\nLevi Baruch\n\n\n\n\n\n\n\nMink Veltman"
-  },
-  {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "ScienceVerse",
-    "section": "Publications",
-    "text": "Publications\nLakens, D., & DeBruine, L. M. (2020). Improving Transparency, Falsifiability, and Rigour by Making Hypothesis Tests Machine Readable. Advances in Methods and Practices in Psychological Science. 2021;4(2). doi:10.1177/2515245920970949 (more accessible preprint version)"
   },
   {
     "objectID": "metadatalist.html",
@@ -200,28 +172,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroducing bibr!\n\n\n\n\n\n\n\n\n\n\n\n2026-10-15\n\n\n\n\n\n\n\n\n\n\n\n\nNL Open Science Festival\n\n\n\n\n\n\n\n\n\n\n\n2026-10-14\n\n\n\n\n\n\n\n\n\n\n\n\nCan automated tools help researchers catch problems before their work is published?\n\n\n\n\n\n\n\n\n\n\n\n2026-08-03\n\n\n\n\n\n\n\n\n\n\n\n\nPerspectives on Scientific Error\n\n\n\n\n\n\n\n\n\n\n\n2026-02-11\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Literature Demonstration: Festival of Data Science and AI\n\n\n\n\n\n\n\n\n\n\n\n2025-10-28\n\n\n\n\n\n\n\n\n\n\n\n\nUsing AI Ethically in Research: Festival of Data Science and AI\n\n\n\n\n\n\n\n\n\n\n\n2025-10-28\n\n\n\n\n\n\n\n\n\n\n\n\nTransparency Check Launch Event\n\n\n\n\n\n\n\n\n\n\n\n2025-10-06\n\n\n\n\n\n\n\n\n\n\n\n\nIntroductory Blog Posts\n\n\n\n\n\n\n\n\n\n\n\n2025-07-27\n\n\n\n\n\n\n\n\n\n\n\n\nGlasgow Seminar on Papercheck\n\n\n\n\n\n\n\n\n\n\n\n2025-07-25\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Research Summer School\n\n\n\n\n\n\n\n\n\n\n\n2025-07-23\n\n\n\n\n\n\n\n\n\n\n\n\nMetaScience Unconference\n\n\n\n\n\n\n\n\n\n\n\n2025-07-02\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "values.html",
-    "href": "values.html",
-    "title": "Values",
-    "section": "",
-    "text": "The values below guide our priorities and decision-making for all Scienceverse projects.\n\nQuality Control: The knowledge, data, code and software we create will be verified for accuracy, using publicly available methods and measures, such that users have enough context to interpret the results.\nTransparency: We are committed to open source software and open access datasets for validation.\nAI Optional: The use of large language models (LLMs) will be restricted to classification of existing text, not evaluation of the quality of practice. The use of LLMs will always be opt-in and transparently declared. We will prioritise non-LLM functions where possible, and limit use to cases where it provides substantial benefits that cannot be realised with other methods, such as regular expressions.\nNo Automated Evaluation: While our software is designed to assist the evaluation of research by highlighting aspects where practice may be improved, we will never support automated quality assessments, rankings or scoring.\nData Privacy: We will be fully transparent about what data we have access to and how those data will be used, as well as what will be shared with external services. Wherever possible, we will prioritise functions that share minimal data and services that have robust data protection. We will meet all EU data privacy regulations.\nAccessibility: We will provide our knowledge, data, code and software to all potential users with minimal barriers to access. We will prioritise access that is not unduly limited by wealth, disability or technical knowledge.\nCommunity Engagement: Our work will reflect and respect the needs of a diverse range of research communities, and benefit their research practices. We are open to critique from the research community.\nSustainability: We are committed to the long-term viability of our work. We will actively protect and future-proof our work through technical maintenance, governance structures and strategic planning to make it a durable and relevant public good.\nFair Recognition and Reward: Contributions to knowledge, data, code, and software will be uniquely and persistently identified, and benefit a diverse range of contributors.\n\nThese values are modified from the values statement of the Research Transparency Check project, which partially funds the development of scienceverse projects metacheck and bibr."
-  },
-  {
-    "objectID": "news/2026-02-13_PSE8.html",
-    "href": "news/2026-02-13_PSE8.html",
-    "title": "Perspectives on Scientific Error",
-    "section": "",
-    "text": "The team attended the 8th annual Perspectives on Scientific Error conference February 11-13 in Leiden and held an unofficial metacheck hackathon on the final day. PhD student Raphael Merz presented a poster on “From Detection to Correction: A Hybrid Rule–NLP Approach to Misinterpretations of Nonsignificant p Values”.\nAll of the talks and posters were great, but everyone especially enjoyed Leif Nelson’s keynote on “Finding Lies from the People Who Create the Truths”. Attila Simkó’s talk on “Automating Code Reproducibility” was also especially relevant to our projects.\n\n\n\nDaniel Lakens, Lisa DeBruine, Rene Bekkers, Jakob Werner, Max Littel, and Christian Mesquida"
-  },
-  {
-    "objectID": "news/2026-08-03_kings.html",
-    "href": "news/2026-08-03_kings.html",
-    "title": "Can automated tools help researchers catch problems before their work is published?",
-    "section": "",
-    "text": "In this talk from the King’s Open Research Summer School 2026, Professor Daniël Lakens (Eindhoven University of Technology) introduces metacheck, an open-source toolkit designed to automatically screen scientific manuscripts and research outputs for potential issues and opportunities for improvement.\n\n\nInspired by automated quality-control checks in software development, metacheck can help researchers identify issues such as incorrect citations, missing DOIs, references to retracted or questioned papers, and commonly misreported methodological and statistical practices.\nImportantly, metacheck is designed to support rather than replace human expertise. It does not automatically score or judge the quality of research. Instead, it highlights areas that researchers may want to investigate, with interpretation and decision-making remaining with the researcher.\nThe talk demonstrates how automated checks could become part of routine research workflows, helping researchers identify errors earlier and strengthen the transparency, reproducibility, and credibility of scientific research.\nThis presentation was recorded as part of the King’s Open Research Summer School 2026, hosted by King’s College London."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntroducing bibr!\n\n\n\n\n\n\n\n\n\n\n\n2026-10-15\n\n\n\n\n\n\n\n\n\n\n\n\nNL Open Science Festival\n\n\n\n\n\n\n\n\n\n\n\n2026-10-14\n\n\n\n\n\n\n\n\n\n\n\n\nCan automated tools help researchers catch problems before their work is published?\n\n\n\n\n\n\n\n\n\n\n\n2026-08-03\n\n\n\n\n\n\n\n\n\n\n\n\nPerspectives on Scientific Error\n\n\n\n\n\n\n\n\n\n\n\n2026-02-11\n\n\n\n\n\n\n\n\n\n\n\n\nUsing AI Ethically in Research: Festival of Data Science and AI\n\n\n\n\n\n\n\n\n\n\n\n2025-10-28\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Literature Demonstration: Festival of Data Science and AI\n\n\n\n\n\n\n\n\n\n\n\n2025-10-28\n\n\n\n\n\n\n\n\n\n\n\n\nTransparency Check Launch Event\n\n\n\n\n\n\n\n\n\n\n\n2025-10-06\n\n\n\n\n\n\n\n\n\n\n\n\nIntroductory Blog Posts\n\n\n\n\n\n\n\n\n\n\n\n2025-07-27\n\n\n\n\n\n\n\n\n\n\n\n\nGlasgow Seminar on Papercheck\n\n\n\n\n\n\n\n\n\n\n\n2025-07-25\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Research Summer School\n\n\n\n\n\n\n\n\n\n\n\n2025-07-23\n\n\n\n\n\n\n\n\n\n\n\n\nMetaScience Unconference\n\n\n\n\n\n\n\n\n\n\n\n2025-07-02\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "news/2025-10-06_launch.html",
@@ -231,6 +182,13 @@
     "text": "On Monday October 6, 2025, 14.00-17.00 in the Aurora room of the main building at VU Amsterdam, we had the Kick-off meeting for Transparency Check.\n\nProgram\n\nA plenary keynote by Daniel Lakens and Rene Bekkers, introducing the project\nA plenary illustration of transparency indicators that you can already assess with the papercheck package by Lisa DeBruine\nParallel sessions: A. Deliberative conversation on transparency indicators, providing input on which aspects of research reports we should develop modules for; B. Software testing and development workshop, providing a user experience and suggestions for improvement of existing modules\nPlenary closing by Rene Bekkers\n\nBecause of budget limitations, we cannot reimburse travel and accommodation. We will provide a link to an online meeting room if you cannot make it to Amsterdam."
   },
   {
+    "objectID": "news/2026-10-14_nl_os_festival.html",
+    "href": "news/2026-10-14_nl_os_festival.html",
+    "title": "NL Open Science Festival",
+    "section": "",
+    "text": "Cristian Mesquida and Daniel Lakens presented a workshop titled Metacheck: An Automated Tool to Improve the Quality of Scientific Articles at the National Open Science Festival in Delft.\n\nWe present Metacheck, an open-source R package that supports evaluation of scientific manuscripts for adherence to open science best practices. The tool automates checks such as compliance with reporting guidelines, data and code sharing practices, and potential misinterpretation of p-values.\n\n\nIn this workshop, we will demonstrate how to use Metacheck’s Shiny app to analyze manuscripts, from processing PDFs into structured formats to running checks and interpreting results.\n\n\nParticipants will learn how to install and use the Metacheck R package to run its modules and interpret the results when evaluating manuscripts or sets of papers."
+  },
+  {
     "objectID": "news/2025-10-27_ai-ethics.html",
     "href": "news/2025-10-27_ai-ethics.html",
     "title": "Using AI Ethically in Research: Festival of Data Science and AI",
@@ -238,10 +196,52 @@
     "text": "Lisa DeBruine spoke about Papercheck in a panel discussion about Ethics in AI at the Festival of Data Science and AI at the University of Glasgow in Scotland.\nSlides"
   },
   {
-    "objectID": "news/2026-10-14_nl_os_festival.html",
-    "href": "news/2026-10-14_nl_os_festival.html",
-    "title": "NL Open Science Festival",
+    "objectID": "news/2026-10-15_bibr.html",
+    "href": "news/2026-10-15_bibr.html",
+    "title": "Introducing bibr!",
     "section": "",
-    "text": "Cristian Mesquida and Daniel Lakens presented a workshop titled Metacheck: An Automated Tool to Improve the Quality of Scientific Articles at the National Open Science Festival in Delft.\n\nWe present Metacheck, an open-source R package that supports evaluation of scientific manuscripts for adherence to open science best practices. The tool automates checks such as compliance with reporting guidelines, data and code sharing practices, and potential misinterpretation of p-values.\n\n\nIn this workshop, we will demonstrate how to use Metacheck’s Shiny app to analyze manuscripts, from processing PDFs into structured formats to running checks and interpreting results.\n\n\nParticipants will learn how to install and use the Metacheck R package to run its modules and interpret the results when evaluating manuscripts or sets of papers."
+    "text": "Jakub Werner’s bibr 🦫 (bibliography rodent) is in alpha! We will be transitioning to using this method for PDF extraction in metacheck and related tools, at it is specifically designed for accurate extraction of paper components that matter most to best practices.\n(text below adapted from Jakub’s LinkedIn post)\nbibr extracts scientific PDFs into structured data - ready for archival, RAG, or (like Metacheck) reliable analysis for researchers. In our testing, bibr is more accurate than GROBID, the open-source standard (and a big inspiration), across fields, while also adding many extra features.\n\n100% self-hostable and private\nBuilt on modern open-source ML (Paddle, Qwen, ModernBERT) + small models we trained ourselves.\nFully traceable: match every sentence to its section and page\nDeterminism where possible: rules and explainable ML preferred, LLM only runs on what they can’t do well.\n\nTry it out by running pip install bibr, or in the web demo (https://try.bibr.org)!\nOn 300 open-access papers published since July that bibr wasn’t trained on, checked against the publishers’ own XML, it got the title, DOI, authors and reference list right on 91% of them, against 62% for GROBID. On behavioral science, today’s release pushes that to 95.5% with fixes found during the test.\nbibr features an export schema co-developed with Lisa DeBruine and the Metascience community, extracting:\n\ntitle, authors, affiliations, DOI, funding, statements\nreferences, parsed by our own model, with BibTeX and RIS export (and optional Crossref matching)\nall sections and their text, sentence by sentence\nparsed tables (as HTML or rows/cells), figures and equations\nIMRaD section classification\nOECD Frascati field and paper type\nand more!\n\nOn a single customer-grade RTX 5090 GPU, bibr chews through 1100+ behavioral-science papers per hour.\nOur next frontier is more validation. As Hussey, Jung and Cummins write https://lnkd.in/p/ejtya73X, building tools is no longer the hard part with Agentic AI, it’s validation.\nWe welcome any feedback. If bibr is potentially relevant to your use case, get in touch! There are still many areas for improvement, but we hope it can already be very useful."
+  },
+  {
+    "objectID": "news/2025-10-28_festival-of-ai.html",
+    "href": "news/2025-10-28_festival-of-ai.html",
+    "title": "Research Literature Demonstration: Festival of Data Science and AI",
+    "section": "",
+    "text": "Lisa DeBruine gave a Papercheck workshop at the Festival of Data Science and AI at the University of Glasgow in Scotland.\nWe had an in-depth demonstration of how Papercheck might be useful for systematic reviews."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ScienceVerse",
+    "section": "",
+    "text": "The increasingly digital workflow in science has made it possible to share almost all aspects of the research cycle, from pre-registered analysis plans and study materials to the data and analysis code that produce the reported results. Although the growing availability of research output is a positive development, most of this digital information is in a format that makes it difficult to find, access, and reuse. A major barrier is the lack of a framework to concisely describe every component of research in a machine-readable format: A grammar of science.\nSee our values statement for a list of the values that guide this project."
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "ScienceVerse",
+    "section": "Software",
+    "text": "Software\nWe are developing software to achieve our goals of generating and processing machine-readable descriptions to facilitate archiving studies, pre-registration, finding variables and measures used in other research, meta-analyses of studies, finding and re-using datasets in other ways, and assessing research outputs for best practices.\nOur current focus is on developing MetaCheck, which aims to screen scientific manuscripts to identify potential issues or areas for improvement and guide researchers in adopting best practices. It can also assist with processing large numbers of papers for metascientific enquiry.\n\n\n\n\n\n\n\n\n\nscienceverse generates machine-readable descriptions of research objects\n\n\n\n\n\n\n\nmetacheck provides extendable tools for checking research outputs for best practices\n\n\n\n\n\n\n\nfaux simulates data from descriptive statistics\n\n\n\n\n\n\n\n\n\nsvutils provides common utility functions for scienceverse packages\n\n\n\n\n\n\n\nschema collects JSON schema for research objects\n\n\n\n\n\n\n\nbibr for accuracy-first bibliographic metadata extraction"
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "ScienceVerse",
+    "section": "Funding",
+    "text": "Funding\nThis project is partially funded by the TDCC Research Transparency Check Project, co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a Vici grant to Daniël Lakens."
+  },
+  {
+    "objectID": "index.html#core-team",
+    "href": "index.html#core-team",
+    "title": "ScienceVerse",
+    "section": "Core Team",
+    "text": "Core Team\nScienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), Max Littel (RA, VU), Jakub Werner (RA, TUE), Hadeel Khawatmy (RA, TUE), Lavinia Ion (RA, TUE), Levi Baruch (RA, TUE), and Mink Veltman (RA, TUE).\n\n\n\n\n\n\n\n\n\nLisa DeBruine\n\n\n\n\n\n\n\nDaniël Lakens\n\n\n\n\n\n\n\nCristian Mesquida\n\n\n\n\n\n\n\nRené Bekkers\n\n\n\n\n\n\n\nMax Littel\n\n\n\n\n\n\n\n\n\nJakub Werner\n\n\n\n\n\n\n\nHadeel Khawatmy\n\n\n\n\n\n\n\nLavinia Ion\n\n\n\n\n\n\n\nLevi Baruch\n\n\n\n\n\n\n\nMink Veltman"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "ScienceVerse",
+    "section": "Publications",
+    "text": "Publications\nLakens, D., & DeBruine, L. M. (2020). Improving Transparency, Falsifiability, and Rigour by Making Hypothesis Tests Machine Readable. Advances in Methods and Practices in Psychological Science. 2021;4(2). doi:10.1177/2515245920970949 (more accessible preprint version)"
   }
 ]
