@@ -1,8 +1,25 @@
 /*-- scss:defaults --*/
-$link-color: #3274B5;
+// Typography
+$font-family-sans-serif: "Cabin", sans-serif !default;
+$headings-font-family: "Cabin", sans-serif !default;
+$font-family-monospace: "Fira Code", monospace !default;
+$font-size-base: 1.0625rem !default;
+$line-height-base: 1.6 !default;
 
+// Colors
+$body-bg: #E9E8E5 !default;
+$body-color: #262624 !default;
+$primary: #2F6F1C !default;
+$secondary: #5E5C58 !default;
+$border-color: #CFCDC8 !default;
+$navbar-bg: #CFCDC8;
+$navbar-fg: #262624;
+$navbar-hl: #2F6F1C;
 
 /*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 .navbar-logo {
   max-height: 50px;
@@ -18,15 +35,10 @@ $link-color: #3274B5;
   --grey: #2C3E4F;
 }
 
-/* rainbow borders */
-nav {
-  /* 
-  margin-top: 18px;
-  box-shadow: 0 -6px 0 0px var(--blue),
-              0 -12px 0 0px var(--green),
-              0 -18px 0 0px var(--red);
-  */
+#people img {
+  border-radius: 50%;
 }
+#people { text-align: center; }
 
 img.navbar-logo {
   max-height: 2em;

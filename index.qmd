@@ -55,7 +55,7 @@ This project is partially funded by the TDCC [Research Transparency Check Projec
 
 Scienceverse is a collaborative project led by Lisa DeBruine (University of Glasgow) and Daniël Lakens (Technical University Eindhoven). Other contributors are Cristian Mesquida (postdoc, TUE), René Bekkers (Transparency Check co-PI, VU Amsterdam), Max Littel (RA, VU), Jakub Werner (RA, TUE), Hadeel Khawatmy (RA, TUE), Lavinia Ion (RA, TUE), Levi Baruch (RA, TUE), and Mink Veltman (RA, TUE).
 
-::: {layout-ncol=5}
+::: {#people layout-ncol=5}
 
 ![Lisa DeBruine](images/people/debruine.jpg)
 
