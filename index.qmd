@@ -1,4 +1,5 @@
 ---
+toc: true
 listing:
   id: news-listing
   contents: news
@@ -31,11 +32,13 @@ We are developing software to achieve our goals of generating and processing mac
 
 Our current focus is on developing MetaCheck, which aims to screen scientific manuscripts to identify potential issues or areas for improvement and guide researchers in adopting best practices. It can also assist with processing large numbers of papers for metascientific enquiry.
 
-::: {layout-ncol=3}
+::: {layout-ncol=6}
 
 [![scienceverse generates machine-readable descriptions of research objects](images/logos/scienceverse.png)](https://scienceverse.github.io/scienceverse/)
 
 [![metacheck provides extendable tools for checking research outputs for best practices](images/logos/metacheck.png)](https://scienceverse.github.io/metacheck/)
+
+[![bibr for accuracy-first bibliographic metadata extraction](images/logos/bibr.png)](https://github.com/scienceverse/bibr)
 
 [![faux simulates data from descriptive statistics](images/logos/faux.png)](https://scienceverse.github.io/faux/)
 
@@ -43,13 +46,21 @@ Our current focus is on developing MetaCheck, which aims to screen scientific ma
 
 [![schema collects JSON schema for research objects](images/logos/schema.png)](https://scienceverse.github.io/schema/)
 
-[![bibr for accuracy-first bibliographic metadata extraction](images/logos/bibr.png)](https://github.com/scienceverse/bibr)
-
 :::
 
 ## Funding
 
-This project is partially funded by the TDCC [Research Transparency Check Project](https://transparencycheck.github.io/), co-led by René Bekkers and Daniël Lakens. Aspects of the project are also funded by a [Vici grant](https://www.tue.nl/en/news-and-events/news-overview/28-02-2025-nwo-vici-grants-awarded-to-daniel-lakens-and-peter-zijlstra) to Daniël Lakens.
+This project is partially funded by:
+
+* NWO VICI 2024 grant “Interpretable Effect Sizes for Psychological Science”. <https://doi.org/10.61686/UOJCN75090> (€1.5M) PI Daniel Lakens.
+
+* Thematic Digital Competence Centre Social Sciences & Humanities (TDCC-SSH) project "[Research Transparency Check](https://transparencycheck.github.io/)" <https://doi.org/10.61686/ENWVD61320> (€248K) PI René Bekkers.
+
+* NWO Research on Open Science 2025 grant "Assessing and Improving the Effectiveness of Data and Code Sharing Policies in Dutch Research Performing Organizations" <https://doi.org/10.61686/WQEKR44289> (€257K) PI Krist Vaesen.
+
+* NWO Research on Open Science 2025 grant "Shaping Open Science Culture: Investigating and influencing its impact and change" <https://doi.org/10.61686/BTKCI65580> (€258K) PI Joeri Tijdink.
+
+* NWO FAIR Research Outputs "FAIRifying Environmental Sensor Data for Exposure Assessment" (€50K) PI Cristian Mesquida.
 
 ## Core Team
 
